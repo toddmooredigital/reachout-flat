@@ -1,0 +1,51 @@
+<%= erb :'templates/partials/header'  %>
+<%= erb :'templates/partials/tabs'  %>
+
+  <div role="main" id="main">
+
+    <div class="g3 alpha">
+        <div class="module feature main subcategory">
+          <h2 class="module heading big" data-ui-squeeze="left">Featured Image</h2>
+          <div class="module ui-generic feature-image margin-top-minus-20" data-ui-squeeze="right">
+              <img src="images/blank.gif" style="background-image: url(images/temp/temp-test.jpg);">
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna </p>
+          </div>
+        </div>
+    </div>
+
+    <br style="clear: both;">
+
+    <div id="huge-big">
+      <div class="alpha g3 omega">
+        <h3 class="module heading dotted fl" data-ui-squeeze="left">Articles in this section</h3>
+    
+        <div class="fr margin-top-35" data-ui-squeeze="right">
+            <div class="btn-group">
+              <button class="btn">Filter by:</button>
+              <a class="btn dropdown-toggle dropdown" data-toggle="dropdown" href="#">
+                Most recent content 
+                <span class="caret ui-generic-down-arrow inline-block"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Most Recent</a></li>
+                <li><a href="#">Most Recent</a></li>
+              </ul>
+            </div>
+        </div>
+
+      </div>
+      <br style="clear: both;" />
+    </div>
+
+  </div>
+  <br style="clear:both;">
+<%= erb :'templates/partials/footer'  %>

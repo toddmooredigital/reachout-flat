@@ -1,0 +1,245 @@
+<%= erb :'templates/partials/header'  %>
+
+  <div role="main" id="main">
+
+    <article class="alpha g2">
+
+      <h1 class="module heading dotted no-margin-top margin-bottom-10">Search Results for <span class="light">'Anxiety'</span></h1>
+          
+      <h6 class="nomargin margin-bottom-10">About 58 Resutls</h6>  
+          <div class="fr">
+            <div class="btn-group">
+              <button class="btn">Sorted By:</button>
+              <a class="btn dropdown-toggle dropdown" data-toggle="dropdown" href="#">
+                Most Relevant
+                <span class="caret ui-generic-down-arrow inline-block"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Most Relevant</a></li>
+                <li><a href="#">Most Recent</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="fl">
+            <div class="btn-group">
+              <button class="btn">Showing:</button>
+              <a class="btn dropdown-toggle dropdown" data-toggle="dropdown" href="#">
+                Videos & Stories, Factsheet
+                <span class="caret ui-generic-down-arrow inline-block"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Most Relevant</a></li>
+                <li><a href="#">Most Recent</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <br style="clear:both;" />
+         
+          <div class="module list ui-generic-list-icons margin-top-20 search">
+            <div class="content">
+              <ul>
+              <li>
+                <b class="ui-icon-center-container">
+                  <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                  <h5 class="title blue">
+                    <span>Family Therapy</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                    <a href="#">View the discussion</a>
+                  </h5> 
+                </li>            <li>
+                <b class="ui-icon-center-container">
+                  <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                  <h5 class="title blue">
+                    <span>Family Therapy</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                    <a href="#">View the discussion</a>
+                  </h5> 
+                </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                <li>
+                  <b class="ui-icon-center-container">
+                    <img class="icn ui-generic-icon-pdf" src="images/blank.gif"></b>
+                    <h5 class="title blue">
+                      <span>Family Therapy</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipis </p>
+                      <a href="#">View the discussion</a>
+                    </h5> 
+                  </li>
+                </ul>
+              </div>
+              <div class="footer">       
+                  <ol class="pagination">
+                  <li><a>Previous</a></li>
+                  <li><a>1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">6</a></li>
+                  <li><a href="#">7</a></li>
+                  <li><a href="#">8</a></li>
+                  <li><a href="#">9</a></li>
+                  <li><a href="#">10</a></li>
+                  <li><a>Next</a></li>
+                  </ol>
+        
+              </div>
+            </div>
+
+
+ 
+      
+    </article>
+
+    <div class="g1">
+      <section id="sidebar" class="search">
+        <div class="inner top">
+          
+          <div class="module list standard">
+            <div class="heading">
+              <h5><i class="ui-generic-icon-speech"></i> Forum topics that 
+              have discussions about 
+              'Anxiety'</h5>
+            </div>
+            <div class="content">
+              <ul>
+                <li class="module ui-generic callout border-radius-top">
+                 <h4 class="title blue strong">
+                    whatever <br>
+                  </h4>
+                  <ul class="module list squared">
+                  <li>feeling hopeless or helpless</li>
+                  <li>losing interest in activities</li>
+                  </ul>
+
+                  <em class="ui-generic-callout-speechmark-top"></em>
+                </li>
+                <li class="module ui-generic callout border-radius-top border-radius-bottom">
+                  <h4 class="title">
+                    whatever <br>
+                    <a href="#">View the discussion</a>
+                  </h4>
+                </li>
+                <li class="module ui-generic callout border-radius-top border-radius-bottom">
+                  <h4 class="title">
+                    whatever <br>
+                    <a href="#">View the discussion</a>
+                  </h4>
+                </li>
+                <li class="module ui-generic callout border-radius-bottom highlight">
+                    <a href="#">View all forums</a>
+                </li>
+              </ul>
+            </div>
+          </div><!-- module-list-standard -->
+
+        </div>
+
+      </section>
+    </div>
+
+  </div>
+  <br style="clear:both;">
+<%= erb :'templates/partials/footer'  %>

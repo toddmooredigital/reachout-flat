@@ -1,0 +1,2 @@
+.nav-search-bar { width: 762px; height: 65px; background: url(../../images/nav-search.png) -20px 0px no-repeat; }
+.nav-search-button { width: 157px; height: 37px; background: url(../../images/nav-search.png) -822px -14px no-repeat; }

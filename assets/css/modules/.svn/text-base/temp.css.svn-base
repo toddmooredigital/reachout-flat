@@ -1,0 +1,5 @@
+.temp-slideshow1 { width: 1024px; height: 474px; background: url(../../images/temp.png) -20px 0px no-repeat; }
+.temp-slideshow2 { width: 1024px; height: 474px; background: url(../../images/temp.png) -1084px 0px no-repeat; }
+.temp-test { width: 455px; height: 304px; background: url(../../images/temp.png) -2148px -85px no-repeat; }
+.temp-test2 { width: 488px; height: 326px; background: url(../../images/temp.png) -2643px -74px no-repeat; }
+.temp-test3 { width: 300px; height: 301px; background: url(../../images/temp.png) -3171px -86px no-repeat; }

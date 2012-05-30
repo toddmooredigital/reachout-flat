@@ -1,0 +1,5 @@
+<div class="module nav nav-search">
+          <form class="nav-search-bar">
+            <input type="text" class="nav-search-input" placeholder="Search Reach Out..."><button class="nav-search-button"></button>
+          </form>
+        </div>

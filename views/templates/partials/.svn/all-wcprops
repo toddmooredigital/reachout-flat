@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/views/templates/partials
+END
+header.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/views/templates/partials/header.erb
+END
+tabs.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/views/templates/partials/tabs.erb
+END
+footer.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/views/templates/partials/footer.erb
+END

@@ -1,0 +1,1 @@
+(function(){var a=Array.prototype.slice;window.namespace=function(b,c,d){var e,f,g,h,i,j;arguments.length<3&&(i=[typeof exports!="undefined"?exports:window].concat(a.call(arguments)),b=i[0],c=i[1],d=i[2]),f=b,j=c.split(".");for(g=0,h=j.length;g<h;g++)e=j[g],b=b[e]||(b[e]={});return d(b,f)}}).call(this);

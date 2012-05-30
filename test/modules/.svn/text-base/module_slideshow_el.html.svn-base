@@ -1,0 +1,42 @@
+<div class="module slideshow el">
+      <div class="inner">
+
+        <div class="anchor">
+
+          <div class="callout">
+            <h2>Reach Out is...</h2>
+            <h3>Anonymous &amp; open 24/7. Every year it helps over 400,000 young Australians 
+                by providing information, stories and a support network of other young people
+                who have been through similar stuff. <a href="#">Learn more</a>
+            </h3>
+
+          </div>
+
+          <div class="overlay-tl">
+            <div class="inner">
+              <b class="slideshow-overlay-tl block"></b>
+            </div> 
+          </div>
+          
+          <h3 class="module heading ui-generic-heading-overlay" data-slideshow-heading>
+              Working with friends
+              <b>Subsection title here</b>
+              <span> Lorem ipsum dolor sit amet, consec tetur adipiscing elit. <a href="#">Learn more</a>
+              </span>
+          </h3>
+          
+
+          <div class="content" data-slideshow="cycle">
+            <img src="images/temp/temp-slideshow1.jpg" data-slideshow-title="Working with friends" data-slideshow-subsection="Subsection title here" data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit." data-slideshow-link="#"><img src="images/temp/temp-slideshow2.jpg" data-slideshow-title="Time to do ..." data-slideshow-subsection="Subsection title here" data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit." data-slideshow-link="#">
+</div>
+
+          <div class="overlay-tr">
+            <div class="inner">
+              <b class="slideshow-overlay-tr block"></b>
+            </div> 
+          </div>
+
+        </div>
+
+      </div>
+    </div>

@@ -1,0 +1,2 @@
+.slideshow-overlay-tl { width: 779px; height: 474px; background: url(../../images/slideshow.png) -20px 0px no-repeat; }
+.slideshow-overlay-tr { width: 317px; height: 474px; background: url(../../images/slideshow.png) -839px 0px no-repeat; }

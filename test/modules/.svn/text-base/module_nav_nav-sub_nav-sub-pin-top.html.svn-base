@@ -1,0 +1,18 @@
+<ul class="module nav nav-sub nav-sub-pin-top">
+<li>
+          <span class="nav-sub-title">Follow the conversation</span> 
+          <ul class="nav-sub-icons">
+<li><a href="#" class="nav-sub-youtube">YouTube</a></li>
+            <li><a href="#" class="nav-sub-twitter">Twitter</a></li>
+            <li><a href="#" class="nav-sub-facebook">Facebook</a></li>
+          </ul>
+</li>
+        <li>
+          <span class="nav-sub-login"><a href="#">Logon</a></span>
+          <span class="nav-sub-login"> | </span>
+          <span class="nav-sub-login"><a href="#">Register</a></span>
+        </li>
+        <li>
+          <a href="#" class="nav-sub-emergency">Emergency Help &amp; Info<span>info, chat &amp; phone support</span></a>
+        </li>
+      </ul>

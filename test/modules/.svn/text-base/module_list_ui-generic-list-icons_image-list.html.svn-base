@@ -1,0 +1,39 @@
+<div class="module list ui-generic-list-icons">
+        <div class="heading">
+          <h3>Alcohol &amp; other drugs</h3>
+        </div>
+        <div class="content">
+          <ul>
+<li class="module ui-generic callout">
+              "I drink everyday, even at work now I'll have a drink at lunch. Do you think I have a problem?"
+              <em class="ui-generic-callout-speechmark"></em>
+            </li>
+            <li>
+              <b class="ui-icon-center-container">
+                <img class="icn ui-generic-icon-user" src="images/blank.gif"></b>
+              <h4 class="title">
+                <span>Tom Balin</span>
+                <a href="#">View the discussion</a>
+              </h4>
+            </li>
+            <li>
+              <b class="ui-icon-center-container">
+                <img class="icn ui-generic-icon-document" src="images/blank.gif"></b>
+              <h4 class="title">
+                <span>Tom Balin</span>
+                <a href="#">View the discussion</a>
+              </h4>
+            </li>            <li>
+              <b class="ui-icon-center-container">
+                <img class="icn ui-generic-icon-speech" src="images/blank.gif"></b>
+              <h4 class="title">
+                <span>Tom Balin</span>
+                <a href="#">View the discussion</a>
+              </h4>
+            </li>
+          </ul>
+</div>
+        <div class="footer">
+          <a href="#">Read more about alcohol &amp; other drugs</a>
+        </div>
+      </div>

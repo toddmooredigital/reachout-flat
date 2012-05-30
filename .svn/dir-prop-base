@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 50
+.git
+.gitattributes
+.gitignore
+.sprocksrc
+tmp
+log
+
+END

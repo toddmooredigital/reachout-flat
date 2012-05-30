@@ -1,0 +1,21 @@
+  <section id="tabs">
+    <div class="inner">
+      <div class="module tabs el">
+        <div class="heading">
+          <h3>Somethings Not Right</h3>
+        </div>
+        <div class="content">
+          <ul>
+            <li class="active"><a href="#"> Isolation & Loneliness </a></li>
+            <li><a href="#"> Angry, Sad or Depressed </a></li>
+            <li><a href="#"> Stress & Anxiety </a></li>
+            <li><a href="#"> Eating Disorders </a></li>
+            <li><a href="#"> Addictions </a></li>
+            <li><a href="#"> Self Harm </a></li>
+            <li><a href="#"> Suicide </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!--     <div class="flourish tabs-flourish"></div> -->
+  </section>

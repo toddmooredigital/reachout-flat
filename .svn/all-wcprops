@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/InspireFoundation/!svn/ver/71/Site/Trunk/www
+END
+Gemfile.lock
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/Gemfile.lock
+END
+Guardfile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/Guardfile
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/InspireFoundation/!svn/ver/71/Site/Trunk/www/Rakefile
+END
+app.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/app.rb
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/Gemfile
+END
+config.ru
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/config.ru
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/README.md
+END

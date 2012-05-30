@@ -1,0 +1,5 @@
+<h4>Feedback Error Message</h4>
+
+<div class="feedback error">
+<p>This is an error feedback message.</p>
+</div>

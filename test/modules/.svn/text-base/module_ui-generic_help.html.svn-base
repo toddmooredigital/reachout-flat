@@ -1,0 +1,11 @@
+<li class="module ui-generic help">
+                  <h5>
+                    View the discussion
+                  </h5>
+                  <span class="subheading">Age: 5-25</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h6>Call:</h6>
+                  <span class="telephone">1800 234 236</span>
+                  <button class="btn orange">Chat Online</button>
+                </li>
