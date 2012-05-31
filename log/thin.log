@@ -116,3 +116,1581 @@ I, [2012-05-31T09:56:07.388589 #73702]  INFO -- : Served asset /application.js -
 >> Thin web server (v1.3.1 codename Triple Espresso)
 >> Maximum connections set to 1024
 >> Listening on 0.0.0.0:3002, CTRL+C to stop
+I, [2012-05-31T10:25:59.834384 #81490]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.877001 #81490]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.878484 #81490]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.881047 #81490]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.893140 #81490]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.895659 #81490]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.896665 #81490]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:25:59.942396 #81490]  INFO -- : Compiled coffee/namespace.js  (3ms)  (pid 81490)
+I, [2012-05-31T10:25:59.948142 #81490]  INFO -- : Compiled coffee/config.js  (1ms)  (pid 81490)
+I, [2012-05-31T10:26:00.000947 #81490]  INFO -- : Compiled coffee/spine/src/spine.js  (50ms)  (pid 81490)
+I, [2012-05-31T10:26:00.007868 #81490]  INFO -- : Compiled coffee/router.js  (4ms)  (pid 81490)
+I, [2012-05-31T10:26:00.014792 #81490]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 81490)
+I, [2012-05-31T10:26:00.019801 #81490]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 81490)
+I, [2012-05-31T10:26:00.025808 #81490]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:26:00.026123 #81490]  INFO -- : Compiled coffee/application.js  (385ms)  (pid 81490)
+I, [2012-05-31T10:26:00.027199 #81490]  INFO -- : Served asset /application.js - 200 OK (397ms)
+I, [2012-05-31T10:26:11.001378 #81490]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T10:26:37.400710 #81490]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (5ms)  (pid 81490)
+I, [2012-05-31T10:26:37.419499 #81490]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.450525 #81490]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.451587 #81490]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.452651 #81490]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.453418 #81490]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.454114 #81490]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.456594 #81490]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 81490)
+I, [2012-05-31T10:26:37.458253 #81490]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:26:37.500476 #81490]  INFO -- : Compiled coffee/spine/src/spine.js  (41ms)  (pid 81490)
+I, [2012-05-31T10:26:37.504061 #81490]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:26:37.515624 #81490]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 81490)
+I, [2012-05-31T10:26:37.525546 #81490]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:26:37.541923 #81490]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:26:37.542234 #81490]  INFO -- : Compiled coffee/application.js  (185ms)  (pid 81490)
+I, [2012-05-31T10:26:37.543301 #81490]  INFO -- : Served asset /application.js - 200 OK (188ms)
+E, [2012-05-31T10:29:42.969397 #81490] ERROR -- : Error compiling asset application.js:
+E, [2012-05-31T10:29:42.969573 #81490] ERROR -- : ExecJS::ProgramError: Parse error on line 30: Unexpected '='
+  (in /Users/tmoore/Sites/REACHOUT/www/assets/coffee/application.coffee)
+I, [2012-05-31T10:29:42.969711 #81490]  INFO -- : Served asset /application.js - 500 Internal Server Error
+
+
+E, [2012-05-31T10:30:11.430916 #81490] ERROR -- : Error compiling asset application.js:
+E, [2012-05-31T10:30:11.431081 #81490] ERROR -- : ExecJS::ProgramError: Parse error on line 31: Unexpected '='
+  (in /Users/tmoore/Sites/REACHOUT/www/assets/coffee/application.coffee)
+I, [2012-05-31T10:30:11.431212 #81490]  INFO -- : Served asset /application.js - 500 Internal Server Error
+
+
+I, [2012-05-31T10:30:39.804806 #81490]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.814919 #81490]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.816428 #81490]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.818325 #81490]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.820369 #81490]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.821762 #81490]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.822763 #81490]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.832946 #81490]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 81490)
+I, [2012-05-31T10:30:39.834345 #81490]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:39.885649 #81490]  INFO -- : Compiled coffee/spine/src/spine.js  (50ms)  (pid 81490)
+I, [2012-05-31T10:30:39.890490 #81490]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 81490)
+I, [2012-05-31T10:30:39.896664 #81490]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 81490)
+I, [2012-05-31T10:30:39.904553 #81490]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 81490)
+I, [2012-05-31T10:30:39.907890 #81490]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:30:39.908288 #81490]  INFO -- : Compiled coffee/application.js  (120ms)  (pid 81490)
+I, [2012-05-31T10:30:39.909460 #81490]  INFO -- : Served asset /application.js - 200 OK (123ms)
+I, [2012-05-31T10:30:44.614592 #81490]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T10:30:59.980873 #81490]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.981666 #81490]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.982467 #81490]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.983546 #81490]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.984743 #81490]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.988380 #81490]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.989725 #81490]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:30:59.992412 #81490]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 81490)
+I, [2012-05-31T10:30:59.993900 #81490]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 81490)
+I, [2012-05-31T10:31:00.035590 #81490]  INFO -- : Compiled coffee/spine/src/spine.js  (40ms)  (pid 81490)
+I, [2012-05-31T10:31:00.039589 #81490]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:31:00.045741 #81490]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 81490)
+I, [2012-05-31T10:31:00.048925 #81490]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:31:00.052128 #81490]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 81490)
+I, [2012-05-31T10:31:00.052490 #81490]  INFO -- : Compiled coffee/application.js  (84ms)  (pid 81490)
+I, [2012-05-31T10:31:00.053544 #81490]  INFO -- : Served asset /application.js - 200 OK (87ms)
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/proxies.rb:145: [BUG] Segmentation fault
+ruby 1.9.3p125 (2012-02-16 revision 34643) [x86_64-darwin11.3.0]
+
+-- Control frame information -----------------------------------------------
+c:0082 p:---- s:0379 b:0379 l:000378 d:000378 CFUNC  :delete
+c:0081 p:0045 s:0375 b:0375 l:000374 d:000374 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/proxies.rb:145
+c:0080 p:---- s:0370 b:0370 l:000369 d:000369 FINISH
+c:0079 p:0040 s:0368 b:0368 l:000356 d:000367 EVAL   /Users/tmoore/Sites/REACHOUT/www/views/templates/partials/header.erb:1
+c:0078 p:---- s:0365 b:0365 l:000364 d:000364 FINISH
+c:0077 p:---- s:0363 b:0363 l:000362 d:000362 CFUNC  :instance_eval
+c:0076 p:0050 s:0357 b:0357 l:000356 d:000356 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:209
+c:0075 p:0033 s:0349 b:0349 l:000348 d:000348 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:144
+c:0074 p:0017 s:0343 b:0343 l:000342 d:000342 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:127
+c:0073 p:0042 s:0337 b:0337 l:000336 d:000336 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:76
+c:0072 p:0351 s:0331 b:0331 l:000330 d:000330 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:636
+c:0071 p:0027 s:0314 b:0314 l:000313 d:000313 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:522
+c:0070 p:0043 s:0308 b:0307 l:000295 d:000306 EVAL   /Users/tmoore/Sites/REACHOUT/www/views/templates/home.erb:1
+c:0069 p:---- s:0304 b:0304 l:000303 d:000303 FINISH
+c:0068 p:---- s:0302 b:0302 l:000301 d:000301 CFUNC  :instance_eval
+c:0067 p:0050 s:0296 b:0296 l:000295 d:000295 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:209
+c:0066 p:0033 s:0288 b:0288 l:000287 d:000287 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:144
+c:0065 p:0017 s:0282 b:0282 l:000281 d:000281 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:127
+c:0064 p:0042 s:0276 b:0276 l:000275 d:000275 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:76
+c:0063 p:0351 s:0270 b:0270 l:000269 d:000269 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:636
+c:0062 p:0027 s:0253 b:0253 l:000252 d:000252 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:522
+c:0061 p:0011 s:0247 b:0247 l:0019e8 d:000246 LAMBDA /Users/tmoore/Sites/REACHOUT/www/app.rb:6
+c:0060 p:---- s:0245 b:0245 l:000244 d:000244 FINISH
+c:0059 p:---- s:0243 b:0243 l:000242 d:000242 CFUNC  :call
+c:0058 p:0020 s:0240 b:0240 l:000670 d:000239 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1212
+c:0057 p:---- s:0236 b:0236 l:000235 d:000235 FINISH
+c:0056 p:---- s:0234 b:0234 l:000233 d:000233 CFUNC  :[]
+c:0055 p:0014 s:0229 b:0229 l:000188 d:000228 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:785
+c:0054 p:0010 s:0227 b:0225 l:000224 d:000224 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:801
+c:0053 p:0009 s:0222 b:0222 l:000188 d:000221 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:785
+c:0052 p:0041 s:0219 b:0219 l:000210 d:000218 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:822
+c:0051 p:---- s:0217 b:0217 l:000216 d:000216 FINISH
+c:0050 p:---- s:0215 b:0215 l:000214 d:000214 CFUNC  :catch
+c:0049 p:0190 s:0211 b:0211 l:000210 d:000210 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:820
+c:0048 p:0018 s:0200 b:0200 l:000188 d:000199 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:784
+c:0047 p:---- s:0194 b:0194 l:000193 d:000193 FINISH
+c:0046 p:---- s:0192 b:0192 l:000191 d:000191 CFUNC  :each
+c:0045 p:0050 s:0189 b:0189 l:000188 d:000188 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:783
+c:0044 p:0078 s:0183 b:0183 l:000182 d:000182 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:886
+c:0043 p:0009 s:0179 b:0179 l:000164 d:000178 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:719
+c:0042 p:0005 s:0177 b:0177 l:000168 d:000176 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:871
+c:0041 p:---- s:0175 b:0175 l:000174 d:000174 FINISH
+c:0040 p:---- s:0173 b:0173 l:000172 d:000172 CFUNC  :catch
+c:0039 p:0013 s:0169 b:0169 l:000168 d:000168 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:871
+c:0038 p:0136 s:0165 b:0165 l:000164 d:000164 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:719
+c:0037 p:0019 s:0161 b:0161 l:000160 d:000160 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:705
+c:0036 p:0015 s:0157 b:0157 l:000156 d:000156 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/xss_header.rb:22
+c:0035 p:0055 s:0150 b:0150 l:000149 d:000149 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/path_traversal.rb:16
+c:0034 p:0019 s:0145 b:0145 l:000144 d:000144 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/json_csrf.rb:17
+c:0033 p:0075 s:0137 b:0137 l:000136 d:000136 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/base.rb:47
+c:0032 p:0015 s:0132 b:0132 l:000131 d:000131 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/xss_header.rb:22
+c:0031 p:0070 s:0125 b:0125 l:000124 d:000124 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/logger.rb:15
+c:0030 p:0015 s:0120 b:0120 l:000119 d:000119 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/head.rb:9
+c:0029 p:0095 s:0113 b:0113 l:000112 d:000112 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/methodoverride.rb:21
+c:0028 p:0015 s:0108 b:0108 l:000107 d:000107 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/showexceptions.rb:21
+c:0027 p:0018 s:0100 b:0100 l:001510 d:000099 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1334
+c:0026 p:0032 s:0098 b:0098 l:000097 d:000097 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1416
+c:0025 p:0011 s:0094 b:0094 l:001510 d:001510 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1334
+c:0024 p:0201 s:0090 b:0090 l:000076 d:000089 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/urlmap.rb:64
+c:0023 p:---- s:0082 b:0082 l:000081 d:000081 FINISH
+c:0022 p:---- s:0080 b:0080 l:000079 d:000079 CFUNC  :each
+c:0021 p:0063 s:0077 b:0077 l:000076 d:000076 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/urlmap.rb:49
+c:0020 p:0020 s:0068 b:0068 l:000059 d:000067 BLOCK  /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:80
+c:0019 p:---- s:0066 b:0066 l:000065 d:000065 FINISH
+c:0018 p:---- s:0064 b:0064 l:000063 d:000063 CFUNC  :catch
+c:0017 p:0135 s:0060 b:0060 l:000059 d:000059 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:78
+c:0016 p:0088 s:0055 b:0054 l:000053 d:000053 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:53
+c:0015 p:0036 s:0051 b:0051 l:000050 d:000050 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:38
+c:0014 p:---- s:0046 b:0046 l:000045 d:000045 FINISH
+c:0013 p:---- s:0044 b:0044 l:000043 d:000043 CFUNC  :run_machine
+c:0012 p:0248 s:0041 b:0041 l:000040 d:000040 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/eventmachine.rb:256
+c:0011 p:0066 s:0034 b:0034 l:001550 d:001550 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/backends/base.rb:61
+c:0010 p:0143 s:0030 b:0030 l:000029 d:000029 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/server.rb:159
+c:0009 p:0545 s:0027 b:0027 l:000250 d:000250 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/controllers/controller.rb:86
+c:0008 p:0283 s:0023 b:0023 l:000022 d:000022 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/runner.rb:185
+c:0007 p:0037 s:0018 b:0018 l:000017 d:000017 METHOD /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/runner.rb:151
+c:0006 p:0042 s:0015 b:0015 l:000014 d:000014 TOP    /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/bin/thin:6
+c:0005 p:---- s:0013 b:0013 l:000012 d:000012 FINISH
+c:0004 p:---- s:0011 b:0011 l:000010 d:000010 CFUNC  :load
+c:0003 p:0127 s:0007 b:0007 l:001ec8 d:0009a0 EVAL   /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/bin/thin:19
+c:0002 p:---- s:0004 b:0004 l:000003 d:000003 FINISH
+c:0001 p:0000 s:0002 b:0002 l:001ec8 d:001ec8 TOP   
+
+-- Ruby level backtrace information ----------------------------------------
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/bin/thin:19:in `<main>'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/bin/thin:19:in `load'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/bin/thin:6:in `<top (required)>'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/runner.rb:151:in `run!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/runner.rb:185:in `run_command'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/controllers/controller.rb:86:in `start'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/server.rb:159:in `start'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/backends/base.rb:61:in `start'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:38:in `receive_data'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:53:in `process'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:78:in `pre_process'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:78:in `catch'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb:80:in `block in pre_process'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/urlmap.rb:49:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/urlmap.rb:49:in `each'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/urlmap.rb:64:in `block in call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1334:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1416:in `synchronize'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1334:in `block in call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/showexceptions.rb:21:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/head.rb:9:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/logger.rb:15:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/xss_header.rb:22:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/base.rb:47:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/json_csrf.rb:17:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/path_traversal.rb:16:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/xss_header.rb:22:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:705:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:719:in `call!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:871:in `invoke'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:871:in `catch'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:871:in `block in invoke'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:719:in `block in call!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:886:in `dispatch!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:783:in `route!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:783:in `each'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:784:in `block in route!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:820:in `process_route'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:820:in `catch'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:822:in `block in process_route'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:785:in `block (2 levels) in route!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:801:in `route_eval'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:785:in `block (3 levels) in route!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:785:in `[]'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1212:in `block in compile!'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:1212:in `call'
+/Users/tmoore/Sites/REACHOUT/www/app.rb:6:in `block in <top (required)>'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:522:in `erb'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:636:in `render'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:76:in `render'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:127:in `evaluate'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:144:in `cached_evaluate'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `evaluate_source'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `instance_eval'
+/Users/tmoore/Sites/REACHOUT/www/views/templates/home.erb:1:in `evaluate_source'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:522:in `erb'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb:636:in `render'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:76:in `render'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:127:in `evaluate'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:144:in `cached_evaluate'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `evaluate_source'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `instance_eval'
+/Users/tmoore/Sites/REACHOUT/www/views/templates/partials/header.erb:1:in `evaluate_source'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/proxies.rb:145:in `call'
+/Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/proxies.rb:145:in `delete'
+
+-- C level backtrace information -------------------------------------------
+
+   See Crash Report log file under ~/Library/Logs/CrashReporter or
+   /Library/Logs/CrashReporter, for the more detail of.
+
+-- Other runtime information -----------------------------------------------
+
+* Loaded script: thin server (0.0.0.0:3002)
+
+* Loaded features:
+
+    0 enumerator.so
+    1 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/enc/encdb.bundle
+    2 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/enc/trans/transdb.bundle
+    3 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/defaults.rb
+    4 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/rbconfig.rb
+    5 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/deprecate.rb
+    6 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/exceptions.rb
+    7 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb
+    8 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems.rb
+    9 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/version.rb
+   10 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/requirement.rb
+   11 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/dependency.rb
+   12 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/platform.rb
+   13 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/specification.rb
+   14 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/rubygems/path_support.rb
+   15 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/etc.bundle
+   16 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/fileutils.rb
+   17 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/timeout.rb
+   18 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/stringio.bundle
+   19 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/date_core.bundle
+   20 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/date/format.rb
+   21 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/date.rb
+   22 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/time.rb
+   23 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/forwardable.rb
+   24 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/digest.bundle
+   25 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/digest.rb
+   26 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/openssl.bundle
+   27 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/bn.rb
+   28 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/cipher.rb
+   29 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/config.rb
+   30 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/digest.rb
+   31 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/buffering.rb
+   32 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/fcntl.bundle
+   33 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/ssl-internal.rb
+   34 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl/x509-internal.rb
+   35 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/openssl.rb
+   36 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/rubyeventmachine.bundle
+   37 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/version.rb
+   38 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/deferrable.rb
+   39 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/future.rb
+   40 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/streamer.rb
+   41 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/spawnable.rb
+   42 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/processes.rb
+   43 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/buftok.rb
+   44 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/timers.rb
+   45 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/protocols.rb
+   46 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/connection.rb
+   47 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/callback.rb
+   48 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/queue.rb
+   49 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/channel.rb
+   50 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/file_watch.rb
+   51 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/em/process_watch.rb
+   52 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/shellwords.rb
+   53 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/thread.rb
+   54 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/eventmachine-0.12.10/lib/eventmachine.rb
+   55 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack.rb
+   56 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/version.rb
+   57 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/statuses.rb
+   58 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/rack/adapter/loader.rb
+   59 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin_parser.bundle
+   60 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin.rb
+   61 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/optparse.rb
+   62 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/psych.bundle
+   63 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/node.rb
+   64 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/stream.rb
+   65 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/document.rb
+   66 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/sequence.rb
+   67 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/scalar.rb
+   68 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/mapping.rb
+   69 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes/alias.rb
+   70 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/nodes.rb
+   71 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/streaming.rb
+   72 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors/visitor.rb
+   73 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/strscan.bundle
+   74 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/scalar_scanner.rb
+   75 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors/to_ruby.rb
+   76 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors/emitter.rb
+   77 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors/yaml_tree.rb
+   78 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/json/ruby_events.rb
+   79 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors/json_tree.rb
+   80 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors/depth_first.rb
+   81 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/visitors.rb
+   82 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/handler.rb
+   83 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/tree_builder.rb
+   84 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/parser.rb
+   85 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/omap.rb
+   86 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/set.rb
+   87 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/coder.rb
+   88 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/core_ext.rb
+   89 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/deprecated.rb
+   90 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych/json.rb
+   91 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/psych.rb
+   92 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/yaml.rb
+   93 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/runner.rb
+   94 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/logging.rb
+   95 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/optparse/time.rb
+   96 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/pid.rb
+   97 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/pidfile.rb
+   98 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/cmdline.rb
+   99 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/exceptions.rb
+  100 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/daemonize.rb
+  101 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/monitor.rb
+  102 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/pidmem.rb
+  103 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/etc_extension.rb
+  104 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/change_privilege.rb
+  105 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/application.rb
+  106 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/application_group.rb
+  107 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons/controller.rb
+  108 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/daemons-1.1.8/lib/daemons.rb
+  109 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/daemonizing.rb
+  110 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/server.rb
+  111 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/socket.bundle
+  112 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/socket.rb
+  113 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/controllers/controller.rb
+  114 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/controllers/cluster.rb
+  115 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/open3.rb
+  116 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/command.rb
+  117 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/backends/base.rb
+  118 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/backends/tcp_server.rb
+  119 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/builder.rb
+  120 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/template.rb
+  121 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/string.rb
+  122 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/erb.rb
+  123 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/haml.rb
+  124 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/css.rb
+  125 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/coffee.rb
+  126 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/nokogiri.rb
+  127 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/builder.rb
+  128 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/markaby.rb
+  129 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/liquid.rb
+  130 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/radius.rb
+  131 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/markdown.rb
+  132 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/textile.rb
+  133 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/rdoc.rb
+  134 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/wiki.rb
+  135 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt/yajl.rb
+  136 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/tilt-1.3.3/lib/tilt.rb
+  137 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/version.rb
+  138 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection.rb
+  139 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/common.rb
+  140 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/generic.rb
+  141 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/ftp.rb
+  142 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/http.rb
+  143 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/https.rb
+  144 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/ldap.rb
+  145 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/ldaps.rb
+  146 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri/mailto.rb
+  147 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/uri.rb
+  148 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/ostruct.rb
+  149 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/erb.rb
+  150 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/set.rb
+  151 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/delegate.rb
+  152 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/tmpdir.rb
+  153 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/tempfile.rb
+  154 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/multipart.rb
+  155 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/utils.rb
+  156 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/request.rb
+  157 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/showexceptions.rb
+  158 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/showexceptions.rb
+  159 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/version.rb
+  160 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/response.rb
+  161 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/securerandom.rb
+  162 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/base.rb
+  163 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra/main.rb
+  164 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sinatra-1.3.2/lib/sinatra.rb
+  165 /Users/tmoore/Sites/REACHOUT/www/app.rb
+  166 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/version.rb
+  167 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/module.rb
+  168 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/disabled_runtime.rb
+  169 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/external_runtime.rb
+  170 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/johnson_runtime.rb
+  171 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/mustang_runtime.rb
+  172 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/ruby_racer_runtime.rb
+  173 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/ruby_rhino_runtime.rb
+  174 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs/runtimes.rb
+  175 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/version.rb
+  176 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/ext/v8/v8.bundle
+  177 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/c/locker.rb
+  178 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal.rb
+  179 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/caller.rb
+  180 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/proxies.rb
+  181 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/templates.rb
+  182 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/function.rb
+  183 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/constructor.rb
+  184 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/portal/interceptors.rb
+  185 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/context.rb
+  186 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/object.rb
+  187 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/array.rb
+  188 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/function.rb
+  189 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/tap.rb
+  190 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/access.rb
+  191 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/error.rb
+  192 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8/stack.rb
+  193 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/therubyracer-0.9.10/lib/v8.rb
+  194 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/execjs-1.3.0/lib/execjs.rb
+  195 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/coffee-script-source-1.2.0/lib/coffee_script/source.rb
+  196 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/coffee-script-2.2.0/lib/coffee_script.rb
+  197 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/coffee-script-2.2.0/lib/coffee-script.rb
+  198 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/version.rb
+  199 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/eco_template.rb
+  200 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/ejs_template.rb
+  201 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/jst_processor.rb
+  202 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/utils.rb
+  203 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/engines.rb
+  204 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/sass_template.rb
+  205 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/scss_template.rb
+  206 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets.rb
+  207 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/pathname.bundle
+  208 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/pathname.rb
+  209 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/asset_attributes.rb
+  210 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/asset.rb
+  211 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/errors.rb
+  212 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/zlib.bundle
+  213 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/bundled_asset.rb
+  214 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/caching.rb
+  215 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/processed_asset.rb
+  216 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/mime.rb
+  217 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/mime.rb
+  218 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/processor.rb
+  219 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/processing.rb
+  220 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/server.rb
+  221 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/static_asset.rb
+  222 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/trail.rb
+  223 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/base.rb
+  224 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/charset_normalizer.rb
+  225 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/base64.rb
+  226 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/context.rb
+  227 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/directive_processor.rb
+  228 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/index.rb
+  229 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/safety_colons.rb
+  230 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/hike-1.2.1/lib/hike.rb
+  231 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/monitor.rb
+  232 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/logger.rb
+  233 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/sprockets-2.3.1/lib/sprockets/environment.rb
+  234 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/hike-1.2.1/lib/hike/normalized_array.rb
+  235 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/hike-1.2.1/lib/hike/extensions.rb
+  236 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/hike-1.2.1/lib/hike/index.rb
+  237 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/hike-1.2.1/lib/hike/paths.rb
+  238 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/hike-1.2.1/lib/hike/trail.rb
+  239 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/digest/md5.bundle
+  240 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/urlmap.rb
+  241 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/connection.rb
+  242 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/request.rb
+  243 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/response.rb
+  244 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/thin-1.3.1/lib/thin/headers.rb
+  245 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/methodoverride.rb
+  246 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/head.rb
+  247 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/logger.rb
+  248 /Users/tmoore/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0/digest/sha1.bundle
+  249 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/base.rb
+  250 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/xss_header.rb
+  251 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/frame_options.rb
+  252 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/ip_spoofing.rb
+  253 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/json_csrf.rb
+  254 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-protection-1.2.0/lib/rack/protection/path_traversal.rb
+  255 /Users/tmoore/.rvm/gems/ruby-1.9.3-p125@reachout/gems/rack-1.4.1/lib/rack/file.rb
+
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+For details: http://www.ruby-lang.org/bugreport.html
+
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.3.1 codename Triple Espresso)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3002, CTRL+C to stop
+I, [2012-05-31T10:31:25.925251 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.926061 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.926743 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.927754 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.928751 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.929470 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.930165 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.933732 #85935]  INFO -- : Compiled coffee/namespace.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:31:25.935457 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:25.985132 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (48ms)  (pid 85935)
+I, [2012-05-31T10:31:25.990358 #85935]  INFO -- : Compiled coffee/router.js  (4ms)  (pid 85935)
+I, [2012-05-31T10:31:25.997038 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:31:26.000293 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:31:26.003016 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:31:26.003301 #85935]  INFO -- : Compiled coffee/application.js  (166ms)  (pid 85935)
+I, [2012-05-31T10:31:26.004356 #85935]  INFO -- : Served asset /application.js - 200 OK (170ms)
+I, [2012-05-31T10:31:48.460350 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.461294 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.462070 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.463216 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.464511 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.465277 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.466002 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.468348 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:31:48.469807 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:31:48.509056 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (38ms)  (pid 85935)
+I, [2012-05-31T10:31:48.513100 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:31:48.519387 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:31:48.522687 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:31:48.525500 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:31:48.525809 #85935]  INFO -- : Compiled coffee/application.js  (77ms)  (pid 85935)
+I, [2012-05-31T10:31:48.531605 #85935]  INFO -- : Served asset /application.js - 200 OK (86ms)
+I, [2012-05-31T10:32:15.350424 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.351244 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.351940 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.353052 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.354455 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.355465 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.356307 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.358931 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:32:15.360425 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:15.411521 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (50ms)  (pid 85935)
+I, [2012-05-31T10:32:15.416458 #85935]  INFO -- : Compiled coffee/router.js  (4ms)  (pid 85935)
+I, [2012-05-31T10:32:15.422418 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:32:15.426047 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:32:15.429008 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:32:15.432786 #85935]  INFO -- : Compiled coffee/application.js  (96ms)  (pid 85935)
+I, [2012-05-31T10:32:15.434107 #85935]  INFO -- : Served asset /application.js - 200 OK (100ms)
+I, [2012-05-31T10:32:48.546916 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:32:48.547799 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.548459 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.549454 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.550510 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.551233 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.551913 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.554176 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:32:48.555521 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:32:48.593738 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:32:48.597185 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:32:48.602475 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (4ms)  (pid 85935)
+I, [2012-05-31T10:32:48.606172 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:32:48.608848 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:32:48.609137 #85935]  INFO -- : Compiled coffee/application.js  (81ms)  (pid 85935)
+I, [2012-05-31T10:32:48.610240 #85935]  INFO -- : Served asset /application.js - 200 OK (84ms)
+I, [2012-05-31T10:35:34.175600 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:35:34.176689 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.177601 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.178836 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.179969 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.180825 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.181535 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.183764 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:35:34.185159 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:35:34.226004 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (40ms)  (pid 85935)
+I, [2012-05-31T10:35:34.235772 #85935]  INFO -- : Compiled coffee/router.js  (8ms)  (pid 85935)
+I, [2012-05-31T10:35:34.244459 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T10:35:34.248028 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:35:34.251213 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:35:34.251572 #85935]  INFO -- : Compiled coffee/application.js  (89ms)  (pid 85935)
+I, [2012-05-31T10:35:34.252757 #85935]  INFO -- : Served asset /application.js - 200 OK (92ms)
+I, [2012-05-31T10:36:27.541732 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.542534 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.543247 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.544385 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.545641 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.546548 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.547314 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.550002 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:36:27.551600 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:36:27.591232 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (38ms)  (pid 85935)
+I, [2012-05-31T10:36:27.594797 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:36:27.600567 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:36:27.604583 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:36:27.610795 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:36:27.611151 #85935]  INFO -- : Compiled coffee/application.js  (81ms)  (pid 85935)
+I, [2012-05-31T10:36:27.612265 #85935]  INFO -- : Served asset /application.js - 200 OK (85ms)
+I, [2012-05-31T10:37:57.233827 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T10:39:05.235964 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.236715 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.237396 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.238434 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.239471 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.240199 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.240886 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.243064 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:39:05.244483 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:39:05.286434 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:39:05.290163 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:39:05.297841 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T10:39:05.301763 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:39:05.305259 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:39:05.305571 #85935]  INFO -- : Compiled coffee/application.js  (78ms)  (pid 85935)
+I, [2012-05-31T10:39:05.306748 #85935]  INFO -- : Served asset /application.js - 200 OK (84ms)
+I, [2012-05-31T10:43:03.971663 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.972440 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.973131 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.974185 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.975267 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.976022 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.976713 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:03.979952 #85935]  INFO -- : Compiled coffee/namespace.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:43:03.981465 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:43:04.032482 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (50ms)  (pid 85935)
+I, [2012-05-31T10:43:04.036590 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:43:04.042979 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:43:04.047050 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:43:04.050027 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:43:04.050351 #85935]  INFO -- : Compiled coffee/application.js  (90ms)  (pid 85935)
+I, [2012-05-31T10:43:04.051428 #85935]  INFO -- : Served asset /application.js - 200 OK (94ms)
+I, [2012-05-31T10:46:03.388934 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.397408 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.398937 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.400801 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.403330 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.404667 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.405718 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.432407 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:46:03.539762 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:03.584860 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (38ms)  (pid 85935)
+I, [2012-05-31T10:46:03.589257 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:46:03.595377 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:46:03.598653 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:46:03.631383 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:46:03.631808 #85935]  INFO -- : Compiled coffee/application.js  (260ms)  (pid 85935)
+I, [2012-05-31T10:46:03.640650 #85935]  INFO -- : Served asset /application.js - 200 OK (316ms)
+I, [2012-05-31T10:46:32.633111 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.633874 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.634579 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.635652 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.636680 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.637432 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.638118 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.640228 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:46:32.641572 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:46:32.679273 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:46:32.682783 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:46:32.688618 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:46:32.691722 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:46:32.694429 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:46:32.694765 #85935]  INFO -- : Compiled coffee/application.js  (70ms)  (pid 85935)
+I, [2012-05-31T10:46:32.695918 #85935]  INFO -- : Served asset /application.js - 200 OK (74ms)
+I, [2012-05-31T10:48:23.434885 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.444865 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.446218 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.447971 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.449708 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.450906 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.452002 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.462829 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:48:23.470595 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:23.520644 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (48ms)  (pid 85935)
+I, [2012-05-31T10:48:23.525444 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:48:23.533192 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T10:48:23.537036 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:48:23.541019 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:48:23.541385 #85935]  INFO -- : Compiled coffee/application.js  (122ms)  (pid 85935)
+I, [2012-05-31T10:48:23.542597 #85935]  INFO -- : Served asset /application.js - 200 OK (134ms)
+I, [2012-05-31T10:48:41.312657 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.313441 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.314135 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.315531 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.316587 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.317406 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.318151 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.320412 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:48:41.321828 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:48:41.360518 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:48:41.364198 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:48:41.378165 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:48:41.381708 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:48:41.384351 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:48:41.384629 #85935]  INFO -- : Compiled coffee/application.js  (82ms)  (pid 85935)
+I, [2012-05-31T10:48:41.385753 #85935]  INFO -- : Served asset /application.js - 200 OK (85ms)
+I, [2012-05-31T10:49:17.374480 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.375269 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.375978 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.376998 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.378014 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.378717 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.379401 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.381558 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:49:17.383446 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:49:17.421481 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:49:17.424912 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:49:17.430905 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:49:17.433981 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:49:17.440442 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:49:17.440779 #85935]  INFO -- : Compiled coffee/application.js  (74ms)  (pid 85935)
+I, [2012-05-31T10:49:17.441880 #85935]  INFO -- : Served asset /application.js - 200 OK (78ms)
+I, [2012-05-31T10:50:24.125851 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T10:51:16.865130 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T10:51:45.725758 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.726664 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.727489 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.728659 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.729874 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.730749 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.731701 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.734502 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:51:45.736150 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:45.774336 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:51:45.777908 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:51:45.790345 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:51:45.793455 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:51:45.796105 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:51:45.796414 #85935]  INFO -- : Compiled coffee/application.js  (81ms)  (pid 85935)
+I, [2012-05-31T10:51:45.797385 #85935]  INFO -- : Served asset /application.js - 200 OK (85ms)
+I, [2012-05-31T10:51:53.778084 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.778829 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.779490 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.780488 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.781758 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.782500 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.783176 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.785262 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:51:53.786614 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:51:53.839617 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (52ms)  (pid 85935)
+I, [2012-05-31T10:51:53.846970 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:51:53.853043 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:51:53.856450 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:51:53.859205 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:51:53.859490 #85935]  INFO -- : Compiled coffee/application.js  (89ms)  (pid 85935)
+I, [2012-05-31T10:51:53.860608 #85935]  INFO -- : Served asset /application.js - 200 OK (93ms)
+I, [2012-05-31T10:52:10.530102 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.530863 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.531543 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.532547 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.533568 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.534299 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.534979 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.537192 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:52:10.538542 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:10.575762 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T10:52:10.579211 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:52:10.584868 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (4ms)  (pid 85935)
+I, [2012-05-31T10:52:10.587905 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:52:10.590803 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:52:10.591103 #85935]  INFO -- : Compiled coffee/application.js  (69ms)  (pid 85935)
+I, [2012-05-31T10:52:10.592224 #85935]  INFO -- : Served asset /application.js - 200 OK (73ms)
+I, [2012-05-31T10:52:42.546755 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.547662 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.548869 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.550130 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.557811 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (7ms)  (pid 85935)
+I, [2012-05-31T10:52:42.558693 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.559365 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.561477 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:52:42.562789 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:52:42.600791 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:52:42.604308 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:52:42.610665 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:52:42.613695 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:52:42.616348 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:52:42.616655 #85935]  INFO -- : Compiled coffee/application.js  (79ms)  (pid 85935)
+I, [2012-05-31T10:52:42.617763 #85935]  INFO -- : Served asset /application.js - 200 OK (83ms)
+I, [2012-05-31T10:53:59.656462 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.657245 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.657942 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.658976 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.659999 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.660740 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.661470 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.663576 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:53:59.664954 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:53:59.701392 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T10:53:59.705950 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:53:59.713302 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T10:53:59.716681 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:53:59.719420 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:53:59.719687 #85935]  INFO -- : Compiled coffee/application.js  (74ms)  (pid 85935)
+I, [2012-05-31T10:53:59.720792 #85935]  INFO -- : Served asset /application.js - 200 OK (78ms)
+I, [2012-05-31T10:54:17.722807 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.723553 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.724214 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.725374 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.726604 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.727368 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.728075 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.730134 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:54:17.731466 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:17.775507 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (43ms)  (pid 85935)
+I, [2012-05-31T10:54:17.779431 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:54:17.785508 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:54:17.788485 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:54:17.790956 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:54:17.791227 #85935]  INFO -- : Compiled coffee/application.js  (76ms)  (pid 85935)
+I, [2012-05-31T10:54:17.792346 #85935]  INFO -- : Served asset /application.js - 200 OK (79ms)
+I, [2012-05-31T10:54:56.404467 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.405223 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.405909 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.406907 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.407925 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.408663 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.409330 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.411455 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:54:56.412742 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:54:56.450197 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T10:54:56.453552 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:54:56.459383 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:54:56.462341 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:54:56.464913 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:54:56.465211 #85935]  INFO -- : Compiled coffee/application.js  (69ms)  (pid 85935)
+I, [2012-05-31T10:54:56.466361 #85935]  INFO -- : Served asset /application.js - 200 OK (71ms)
+I, [2012-05-31T10:55:26.617774 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.618546 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.619236 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.620250 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.621268 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.622148 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.622859 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:26.624966 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:55:26.628805 #85935]  INFO -- : Compiled coffee/config.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:55:26.667025 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T10:55:26.670372 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:55:26.676594 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:55:26.680127 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:55:26.682862 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:55:26.683145 #85935]  INFO -- : Compiled coffee/application.js  (74ms)  (pid 85935)
+I, [2012-05-31T10:55:26.692549 #85935]  INFO -- : Served asset /application.js - 200 OK (85ms)
+I, [2012-05-31T10:55:40.510109 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.510879 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.511545 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.512541 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.513524 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.514290 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.514974 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.517042 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:55:40.518341 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:55:40.558091 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T10:55:40.562797 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:55:40.569406 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:55:40.572737 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:55:40.575716 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:55:40.576031 #85935]  INFO -- : Compiled coffee/application.js  (75ms)  (pid 85935)
+I, [2012-05-31T10:55:40.577231 #85935]  INFO -- : Served asset /application.js - 200 OK (78ms)
+I, [2012-05-31T10:56:34.735311 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.736070 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.736754 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.737781 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.738769 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.749424 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.750154 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.752337 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:56:34.753646 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:34.796487 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (42ms)  (pid 85935)
+I, [2012-05-31T10:56:34.800371 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:34.806916 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:56:34.810469 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:34.813393 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:34.813720 #85935]  INFO -- : Compiled coffee/application.js  (87ms)  (pid 85935)
+I, [2012-05-31T10:56:34.814859 #85935]  INFO -- : Served asset /application.js - 200 OK (90ms)
+I, [2012-05-31T10:56:43.850051 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.850856 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.851562 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.852598 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.860338 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (7ms)  (pid 85935)
+I, [2012-05-31T10:56:43.861255 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.861948 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.864142 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:56:43.865453 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:43.903415 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T10:56:43.907085 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:43.913374 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:56:43.916426 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:43.919380 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:43.919686 #85935]  INFO -- : Compiled coffee/application.js  (78ms)  (pid 85935)
+I, [2012-05-31T10:56:43.920815 #85935]  INFO -- : Served asset /application.js - 200 OK (82ms)
+I, [2012-05-31T10:56:52.270893 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.271637 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.276020 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (3ms)  (pid 85935)
+I, [2012-05-31T10:56:52.277257 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.278369 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.279137 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.279876 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.282034 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T10:56:52.284272 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T10:56:52.322001 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T10:56:52.325549 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:52.332103 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T10:56:52.335430 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:52.338440 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T10:56:52.338753 #85935]  INFO -- : Compiled coffee/application.js  (78ms)  (pid 85935)
+I, [2012-05-31T10:56:52.339888 #85935]  INFO -- : Served asset /application.js - 200 OK (81ms)
+I, [2012-05-31T11:01:49.039334 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.048798 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.050141 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.051932 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.053742 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.054971 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.056076 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.066825 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:01:49.074768 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:01:49.119260 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (43ms)  (pid 85935)
+I, [2012-05-31T11:01:49.123382 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:01:49.130713 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:01:49.134246 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:01:49.137235 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:01:49.137524 #85935]  INFO -- : Compiled coffee/application.js  (115ms)  (pid 85935)
+I, [2012-05-31T11:01:49.138687 #85935]  INFO -- : Served asset /application.js - 200 OK (134ms)
+I, [2012-05-31T11:02:00.997048 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (9ms)
+I, [2012-05-31T11:02:21.471171 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.471951 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.472654 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.473730 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.478423 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.479224 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.480004 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.482300 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:02:21.483717 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:21.521132 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:02:21.524619 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:21.531133 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:02:21.534313 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:21.537350 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:21.537642 #85935]  INFO -- : Compiled coffee/application.js  (75ms)  (pid 85935)
+I, [2012-05-31T11:02:21.538782 #85935]  INFO -- : Served asset /application.js - 200 OK (81ms)
+I, [2012-05-31T11:02:46.179283 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.180088 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.180916 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.182000 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.183098 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.183890 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.184580 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.187422 #85935]  INFO -- : Compiled coffee/namespace.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:46.189088 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:46.228234 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (38ms)  (pid 85935)
+I, [2012-05-31T11:02:46.231647 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:46.238762 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:02:46.241820 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:46.244357 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:02:46.244638 #85935]  INFO -- : Compiled coffee/application.js  (79ms)  (pid 85935)
+I, [2012-05-31T11:02:46.245782 #85935]  INFO -- : Served asset /application.js - 200 OK (82ms)
+I, [2012-05-31T11:02:57.068945 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.069704 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.077081 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:02:57.078270 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.079276 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.080024 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.080741 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.082902 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:02:57.084220 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:02:57.120442 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T11:02:57.131490 #85935]  INFO -- : Compiled coffee/router.js  (10ms)  (pid 85935)
+I, [2012-05-31T11:02:57.139537 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:02:57.142701 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:02:57.145385 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:02:57.145675 #85935]  INFO -- : Compiled coffee/application.js  (86ms)  (pid 85935)
+I, [2012-05-31T11:02:57.146806 #85935]  INFO -- : Served asset /application.js - 200 OK (91ms)
+I, [2012-05-31T11:03:09.719777 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.720615 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.721333 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.722450 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.723472 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.724196 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.724915 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.727330 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:03:09.728771 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:09.767317 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:03:09.770793 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:03:09.777314 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:03:09.780287 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:03:09.782868 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:03:09.783165 #85935]  INFO -- : Compiled coffee/application.js  (79ms)  (pid 85935)
+I, [2012-05-31T11:03:09.791950 #85935]  INFO -- : Served asset /application.js - 200 OK (89ms)
+I, [2012-05-31T11:03:20.934271 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.935023 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.935691 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.936693 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.937720 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.938438 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.943428 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.945694 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:03:20.947112 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:20.985035 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:03:20.988574 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:03:20.995164 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:03:20.998707 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:03:21.001458 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:03:21.001752 #85935]  INFO -- : Compiled coffee/application.js  (76ms)  (pid 85935)
+I, [2012-05-31T11:03:21.002940 #85935]  INFO -- : Served asset /application.js - 200 OK (79ms)
+I, [2012-05-31T11:03:54.038809 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.039560 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.040221 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.041224 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.042209 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.042911 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.043593 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.045612 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:03:54.046911 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:03:54.083401 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T11:03:54.086852 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:03:54.093901 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:03:54.096898 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:03:54.099420 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:03:54.099708 #85935]  INFO -- : Compiled coffee/application.js  (70ms)  (pid 85935)
+I, [2012-05-31T11:03:54.100810 #85935]  INFO -- : Served asset /application.js - 200 OK (73ms)
+I, [2012-05-31T11:05:02.900196 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.901020 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.901746 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.913393 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (11ms)  (pid 85935)
+I, [2012-05-31T11:05:02.914592 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.915350 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.916025 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.918186 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:05:02.919518 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:02.962971 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (42ms)  (pid 85935)
+I, [2012-05-31T11:05:02.966661 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:05:02.973393 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:05:02.976434 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:05:02.979112 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:05:02.979427 #85935]  INFO -- : Compiled coffee/application.js  (88ms)  (pid 85935)
+I, [2012-05-31T11:05:02.980522 #85935]  INFO -- : Served asset /application.js - 200 OK (92ms)
+I, [2012-05-31T11:05:08.285650 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.286549 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.287286 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.288509 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.289588 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.290358 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.291084 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.293388 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:05:08.295059 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:08.333586 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:05:08.338209 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:05:08.344826 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:05:08.347907 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:05:08.350835 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:05:08.351163 #85935]  INFO -- : Compiled coffee/application.js  (83ms)  (pid 85935)
+I, [2012-05-31T11:05:08.352273 #85935]  INFO -- : Served asset /application.js - 200 OK (86ms)
+I, [2012-05-31T11:05:15.697453 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.698198 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.698856 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.699850 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.700830 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.701533 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.702214 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.704202 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:05:15.705473 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:05:15.745516 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (39ms)  (pid 85935)
+I, [2012-05-31T11:05:15.748974 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:05:15.755990 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:05:15.758998 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:05:15.761544 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:05:15.761837 #85935]  INFO -- : Compiled coffee/application.js  (72ms)  (pid 85935)
+I, [2012-05-31T11:05:15.762925 #85935]  INFO -- : Served asset /application.js - 200 OK (77ms)
+I, [2012-05-31T11:06:38.605144 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:06:47.938659 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:06:56.446132 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:07:36.708373 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.709137 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.709806 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.710829 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.711831 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.712553 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.713224 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.715254 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:07:36.716565 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:07:36.760349 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (43ms)  (pid 85935)
+I, [2012-05-31T11:07:36.764043 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:07:36.770899 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:07:36.773991 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:07:36.776634 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:07:36.776938 #85935]  INFO -- : Compiled coffee/application.js  (77ms)  (pid 85935)
+I, [2012-05-31T11:07:36.778082 #85935]  INFO -- : Served asset /application.js - 200 OK (80ms)
+I, [2012-05-31T11:08:33.720124 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.720902 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.721567 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.722581 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.723571 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.724280 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.724954 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.727270 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:08:33.728632 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:08:33.765586 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:08:33.768988 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:08:33.775445 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:08:33.778420 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:08:33.780935 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:08:33.781241 #85935]  INFO -- : Compiled coffee/application.js  (76ms)  (pid 85935)
+I, [2012-05-31T11:08:33.782324 #85935]  INFO -- : Served asset /application.js - 200 OK (79ms)
+I, [2012-05-31T11:09:06.938625 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.939396 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.940078 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.941228 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.942297 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.943059 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.943766 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.945852 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:09:06.947327 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:06.984266 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:09:06.987762 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:09:06.994967 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:09:06.998051 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:09:07.000619 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:09:07.000914 #85935]  INFO -- : Compiled coffee/application.js  (74ms)  (pid 85935)
+I, [2012-05-31T11:09:07.010313 #85935]  INFO -- : Served asset /application.js - 200 OK (88ms)
+I, [2012-05-31T11:09:55.788283 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.789006 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.789679 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.790689 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.791698 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.792402 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.796790 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.798895 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:09:55.800328 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:09:55.836550 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T11:09:55.847714 #85935]  INFO -- : Compiled coffee/router.js  (10ms)  (pid 85935)
+I, [2012-05-31T11:09:55.856238 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:09:55.859409 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:09:55.862004 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:09:55.862304 #85935]  INFO -- : Compiled coffee/application.js  (83ms)  (pid 85935)
+I, [2012-05-31T11:09:55.863426 #85935]  INFO -- : Served asset /application.js - 200 OK (86ms)
+I, [2012-05-31T11:10:09.963525 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.964288 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.964950 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.965979 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.967357 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.968146 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.968828 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:09.971166 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:10:09.972589 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:10.010775 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:10:10.014213 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:10:10.020483 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (5ms)  (pid 85935)
+I, [2012-05-31T11:10:10.023398 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:10:10.025936 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:10:10.026233 #85935]  INFO -- : Compiled coffee/application.js  (72ms)  (pid 85935)
+I, [2012-05-31T11:10:10.027307 #85935]  INFO -- : Served asset /application.js - 200 OK (75ms)
+I, [2012-05-31T11:10:17.890506 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:10:17.891362 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.892024 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.893054 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.894065 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.894766 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.895454 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.897644 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:10:17.898984 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:10:17.936144 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:10:17.939536 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:10:17.946611 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:10:17.949631 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:10:17.952155 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:10:17.952431 #85935]  INFO -- : Compiled coffee/application.js  (82ms)  (pid 85935)
+I, [2012-05-31T11:10:17.953623 #85935]  INFO -- : Served asset /application.js - 200 OK (85ms)
+I, [2012-05-31T11:11:04.290577 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:12:29.043881 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.044758 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.047696 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:12:29.048960 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.049971 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.050676 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.051367 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.053502 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:12:29.054904 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:29.093253 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:12:29.097772 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:12:29.104779 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:12:29.108002 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:12:29.111667 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:12:29.112822 #85935]  INFO -- : Compiled coffee/application.js  (77ms)  (pid 85935)
+I, [2012-05-31T11:12:29.113947 #85935]  INFO -- : Served asset /application.js - 200 OK (80ms)
+I, [2012-05-31T11:12:57.927671 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.928627 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.929430 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.930535 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.931560 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.939656 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.940460 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.942570 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:12:57.943881 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:12:57.987856 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (43ms)  (pid 85935)
+I, [2012-05-31T11:12:57.991856 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:12:57.999103 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:12:58.002365 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:12:58.005087 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:12:58.005373 #85935]  INFO -- : Compiled coffee/application.js  (89ms)  (pid 85935)
+I, [2012-05-31T11:12:58.006443 #85935]  INFO -- : Served asset /application.js - 200 OK (92ms)
+I, [2012-05-31T11:13:29.758008 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.758778 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.759567 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.760609 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.761662 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.762415 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.763215 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.765446 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:13:29.766876 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:13:29.804462 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:13:29.807909 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:13:29.815207 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:13:29.818260 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:13:29.820826 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:13:29.821122 #85935]  INFO -- : Compiled coffee/application.js  (76ms)  (pid 85935)
+I, [2012-05-31T11:13:29.822211 #85935]  INFO -- : Served asset /application.js - 200 OK (79ms)
+I, [2012-05-31T11:14:03.225308 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.226476 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.227192 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.228228 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.229234 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.229933 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.230603 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.232682 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:14:03.234009 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:03.269855 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T11:14:03.274242 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:14:03.281170 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:14:03.284248 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:14:03.286864 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:14:03.287156 #85935]  INFO -- : Compiled coffee/application.js  (70ms)  (pid 85935)
+I, [2012-05-31T11:14:03.288289 #85935]  INFO -- : Served asset /application.js - 200 OK (73ms)
+I, [2012-05-31T11:14:25.557806 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.558606 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.559314 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.560360 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.561417 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.562174 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.562891 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.565027 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:14:25.566332 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:14:25.611668 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (44ms)  (pid 85935)
+I, [2012-05-31T11:14:25.615813 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:14:25.623104 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:14:25.626208 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:14:25.628966 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:14:25.629275 #85935]  INFO -- : Compiled coffee/application.js  (82ms)  (pid 85935)
+I, [2012-05-31T11:14:25.630389 #85935]  INFO -- : Served asset /application.js - 200 OK (85ms)
+I, [2012-05-31T11:15:54.004743 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.037406 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.045238 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.047361 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.070985 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.082689 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.091587 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (8ms)  (pid 85935)
+I, [2012-05-31T11:15:54.113786 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:15:54.146289 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:15:54.199481 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:15:54.203333 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:15:54.210884 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:15:54.220985 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:15:54.224404 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:15:54.224715 #85935]  INFO -- : Compiled coffee/application.js  (238ms)  (pid 85935)
+I, [2012-05-31T11:15:54.225784 #85935]  INFO -- : Served asset /application.js - 200 OK (261ms)
+I, [2012-05-31T11:16:11.003351 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.004186 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.004890 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.005931 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.007061 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.007832 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.008599 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.010755 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:16:11.012247 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:11.048740 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (35ms)  (pid 85935)
+I, [2012-05-31T11:16:11.052570 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:16:11.059780 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:16:11.062983 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:16:11.065517 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:16:11.065792 #85935]  INFO -- : Compiled coffee/application.js  (78ms)  (pid 85935)
+I, [2012-05-31T11:16:11.066971 #85935]  INFO -- : Served asset /application.js - 200 OK (81ms)
+I, [2012-05-31T11:16:52.035620 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.060749 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.061826 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.086042 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.131017 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.175802 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.177232 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.220390 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:16:52.244894 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:16:52.322823 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:16:52.326556 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:16:52.334240 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:16:52.361278 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:16:52.364662 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:16:52.364989 #85935]  INFO -- : Compiled coffee/application.js  (363ms)  (pid 85935)
+I, [2012-05-31T11:16:52.366081 #85935]  INFO -- : Served asset /application.js - 200 OK (394ms)
+I, [2012-05-31T11:17:12.776774 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.777537 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.778209 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.779211 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.780204 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.780909 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.781606 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.783623 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:17:12.784948 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:17:12.828821 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (43ms)  (pid 85935)
+I, [2012-05-31T11:17:12.832484 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:17:12.839827 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:17:12.843831 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:17:12.846649 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:17:12.846927 #85935]  INFO -- : Compiled coffee/application.js  (78ms)  (pid 85935)
+I, [2012-05-31T11:17:12.848030 #85935]  INFO -- : Served asset /application.js - 200 OK (81ms)
+I, [2012-05-31T11:19:13.561830 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.562754 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.563525 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.564829 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.566203 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.567150 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.568118 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:13.570697 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:19:13.580667 #85935]  INFO -- : Compiled coffee/config.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:19:13.619094 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:19:13.622675 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:19:13.630214 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:19:13.633315 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:19:13.635995 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:19:13.636301 #85935]  INFO -- : Compiled coffee/application.js  (85ms)  (pid 85935)
+I, [2012-05-31T11:19:13.637381 #85935]  INFO -- : Served asset /application.js - 200 OK (91ms)
+I, [2012-05-31T11:19:57.031672 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.032468 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.033189 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.034236 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.035244 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.035963 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.036668 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.038739 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:19:57.040068 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:19:57.077033 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:19:57.080525 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:19:57.087501 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:19:57.090522 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:19:57.093069 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:19:57.093362 #85935]  INFO -- : Compiled coffee/application.js  (73ms)  (pid 85935)
+I, [2012-05-31T11:19:57.094448 #85935]  INFO -- : Served asset /application.js - 200 OK (78ms)
+I, [2012-05-31T11:20:21.805760 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:20:37.579598 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:20:44.059655 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:21:25.358498 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.359271 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.359984 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.361119 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.362208 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.363852 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:21:25.365186 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.367811 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:21:25.369656 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:21:25.416174 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (45ms)  (pid 85935)
+I, [2012-05-31T11:21:25.420228 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:21:25.428584 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:21:25.431754 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:21:25.434426 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:21:25.434811 #85935]  INFO -- : Compiled coffee/application.js  (88ms)  (pid 85935)
+I, [2012-05-31T11:21:25.435911 #85935]  INFO -- : Served asset /application.js - 200 OK (91ms)
+I, [2012-05-31T11:21:28.177123 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:27:00.101423 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.184807 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.227351 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.423066 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.530913 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.701813 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.718500 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:00.907719 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:27:00.958637 #85935]  INFO -- : Compiled coffee/config.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:27:01.012965 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:27:01.025741 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:27:01.033039 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:27:01.084867 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:27:01.116319 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:27:01.116659 #85935]  INFO -- : Compiled coffee/application.js  (1105ms)  (pid 85935)
+I, [2012-05-31T11:27:01.117769 #85935]  INFO -- : Served asset /application.js - 200 OK (1149ms)
+I, [2012-05-31T11:27:58.639188 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.649525 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.660778 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.663541 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.692916 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.694129 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.723732 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.759150 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:27:58.783532 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:27:58.844441 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:27:58.850007 #85935]  INFO -- : Compiled coffee/router.js  (4ms)  (pid 85935)
+I, [2012-05-31T11:27:58.858172 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:27:58.862134 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:27:58.891797 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:27:58.892138 #85935]  INFO -- : Compiled coffee/application.js  (344ms)  (pid 85935)
+I, [2012-05-31T11:27:58.893232 #85935]  INFO -- : Served asset /application.js - 200 OK (365ms)
+I, [2012-05-31T11:28:48.446040 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.446980 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.448006 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.449109 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.450151 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.450945 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.451638 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.454067 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:28:48.455793 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:28:48.493999 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:28:48.497487 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:28:48.512852 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (14ms)  (pid 85935)
+I, [2012-05-31T11:28:48.516607 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:28:48.519478 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:28:48.519820 #85935]  INFO -- : Compiled coffee/application.js  (83ms)  (pid 85935)
+I, [2012-05-31T11:28:48.520920 #85935]  INFO -- : Served asset /application.js - 200 OK (94ms)
+I, [2012-05-31T11:29:50.809123 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.809932 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.810792 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.811896 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.812957 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.813759 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.814609 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.817063 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:29:50.818620 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:29:50.857491 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (38ms)  (pid 85935)
+I, [2012-05-31T11:29:50.862215 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:29:50.869811 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:29:50.882065 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (11ms)  (pid 85935)
+I, [2012-05-31T11:29:50.885114 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:29:50.885417 #85935]  INFO -- : Compiled coffee/application.js  (86ms)  (pid 85935)
+I, [2012-05-31T11:29:50.886522 #85935]  INFO -- : Served asset /application.js - 200 OK (90ms)
+I, [2012-05-31T11:31:44.806796 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.807575 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.812211 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (4ms)  (pid 85935)
+I, [2012-05-31T11:31:44.813384 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.814471 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.815246 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.815958 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.818065 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:31:44.819445 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:31:44.856696 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:31:44.860147 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:31:44.867679 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 85935)
+I, [2012-05-31T11:31:44.870743 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:31:44.873745 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:31:44.874065 #85935]  INFO -- : Compiled coffee/application.js  (77ms)  (pid 85935)
+I, [2012-05-31T11:31:44.875168 #85935]  INFO -- : Served asset /application.js - 200 OK (80ms)
+I, [2012-05-31T11:32:55.461150 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:34:03.367598 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.368596 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.369484 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.370680 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.371982 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.372921 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.373798 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.376130 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:34:03.377928 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:34:03.415550 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (36ms)  (pid 85935)
+I, [2012-05-31T11:34:03.419679 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:34:03.427838 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:34:03.431059 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:34:03.433789 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:34:03.434108 #85935]  INFO -- : Compiled coffee/application.js  (76ms)  (pid 85935)
+I, [2012-05-31T11:34:03.435280 #85935]  INFO -- : Served asset /application.js - 200 OK (79ms)
+I, [2012-05-31T11:35:23.709756 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:35:31.927164 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:35:39.322718 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:36:38.359287 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:36:57.132946 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:37:17.543925 #85935]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-31T11:38:34.656938 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.657835 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.658680 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.659801 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.661665 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.662548 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.663555 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.665929 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:38:34.667435 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:38:34.709414 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (41ms)  (pid 85935)
+I, [2012-05-31T11:38:34.713130 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:38:34.721204 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:38:34.724345 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:38:34.726971 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:38:34.727265 #85935]  INFO -- : Compiled coffee/application.js  (79ms)  (pid 85935)
+I, [2012-05-31T11:38:34.728397 #85935]  INFO -- : Served asset /application.js - 200 OK (82ms)
+I, [2012-05-31T11:39:00.579030 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.579781 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.580461 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.581517 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.584776 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:39:00.585760 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.586501 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.588753 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:39:00.590191 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:00.628500 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (37ms)  (pid 85935)
+I, [2012-05-31T11:39:00.631960 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:39:00.644470 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:39:00.647803 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:39:00.650541 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:39:00.650848 #85935]  INFO -- : Compiled coffee/application.js  (79ms)  (pid 85935)
+I, [2012-05-31T11:39:00.651950 #85935]  INFO -- : Served asset /application.js - 200 OK (83ms)
+I, [2012-05-31T11:39:45.707455 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.708264 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.708942 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.709956 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.710980 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.711731 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.712443 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.714759 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:39:45.716446 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:39:45.755915 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (38ms)  (pid 85935)
+I, [2012-05-31T11:39:45.760843 #85935]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 85935)
+I, [2012-05-31T11:39:45.769208 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:39:45.772303 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:39:45.774896 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:39:45.775170 #85935]  INFO -- : Compiled coffee/application.js  (77ms)  (pid 85935)
+I, [2012-05-31T11:39:45.776281 #85935]  INFO -- : Served asset /application.js - 200 OK (80ms)
+I, [2012-05-31T11:40:53.196495 #85935]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.197314 #85935]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.198199 #85935]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.199515 #85935]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.200800 #85935]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.209334 #85935]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (7ms)  (pid 85935)
+I, [2012-05-31T11:40:53.210245 #85935]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.212442 #85935]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 85935)
+I, [2012-05-31T11:40:53.213797 #85935]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 85935)
+I, [2012-05-31T11:40:53.255574 #85935]  INFO -- : Compiled coffee/spine/src/spine.js  (41ms)  (pid 85935)
+I, [2012-05-31T11:40:53.259347 #85935]  INFO -- : Compiled coffee/router.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:40:53.268226 #85935]  INFO -- : Compiled coffee/modules/login-logout.js  (8ms)  (pid 85935)
+I, [2012-05-31T11:40:53.271337 #85935]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:40:53.274523 #85935]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 85935)
+I, [2012-05-31T11:40:53.274848 #85935]  INFO -- : Compiled coffee/application.js  (89ms)  (pid 85935)
+I, [2012-05-31T11:40:53.275943 #85935]  INFO -- : Served asset /application.js - 200 OK (92ms)
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.3.1 codename Triple Espresso)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3002, CTRL+C to stop
+I, [2012-05-31T11:43:13.925616 #11245]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.926400 #11245]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.927072 #11245]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.928078 #11245]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.929061 #11245]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.929761 #11245]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.930427 #11245]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:13.934125 #11245]  INFO -- : Compiled coffee/namespace.js  (2ms)  (pid 11245)
+I, [2012-05-31T11:43:13.978512 #11245]  INFO -- : Compiled coffee/config.js  (1ms)  (pid 11245)
+I, [2012-05-31T11:43:14.034170 #11245]  INFO -- : Compiled coffee/spine/src/spine.js  (50ms)  (pid 11245)
+I, [2012-05-31T11:43:14.039382 #11245]  INFO -- : Compiled coffee/router.js  (4ms)  (pid 11245)
+I, [2012-05-31T11:43:14.049310 #11245]  INFO -- : Compiled coffee/modules/login-logout.js  (9ms)  (pid 11245)
+I, [2012-05-31T11:43:14.052878 #11245]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 11245)
+I, [2012-05-31T11:43:14.055638 #11245]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 11245)
+I, [2012-05-31T11:43:14.055947 #11245]  INFO -- : Compiled coffee/application.js  (236ms)  (pid 11245)
+I, [2012-05-31T11:43:14.057013 #11245]  INFO -- : Served asset /application.js - 304 Not Modified (240ms)
+I, [2012-05-31T11:43:59.218346 #11245]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.252304 #11245]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.266384 #11245]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.267628 #11245]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.276086 #11245]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.280343 #11245]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.286941 #11245]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.291815 #11245]  INFO -- : Compiled coffee/namespace.js  (1ms)  (pid 11245)
+I, [2012-05-31T11:43:59.297599 #11245]  INFO -- : Compiled coffee/config.js  (0ms)  (pid 11245)
+I, [2012-05-31T11:43:59.408530 #11245]  INFO -- : Compiled coffee/spine/src/spine.js  (40ms)  (pid 11245)
+I, [2012-05-31T11:43:59.412777 #11245]  INFO -- : Compiled coffee/router.js  (3ms)  (pid 11245)
+I, [2012-05-31T11:43:59.430966 #11245]  INFO -- : Compiled coffee/modules/login-logout.js  (8ms)  (pid 11245)
+I, [2012-05-31T11:43:59.434767 #11245]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 11245)
+I, [2012-05-31T11:43:59.437663 #11245]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 11245)
+I, [2012-05-31T11:43:59.437957 #11245]  INFO -- : Compiled coffee/application.js  (229ms)  (pid 11245)
+I, [2012-05-31T11:43:59.439040 #11245]  INFO -- : Served asset /application.js - 200 OK (240ms)

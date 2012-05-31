@@ -1,8 +1,40 @@
+
+
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" class="no-js"> <!--<![endif]-->
+
+<head id="Head1"><meta charset="utf-8" />
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width" /><title>Login | Reach out Australia
+    </title><meta name="keywords" content=""><meta name="description" content=""><meta name="author" content=""><meta property="og:title" content="Login"><meta property="og:description" content=""><meta property="og:type" content="article"><meta property="og:image" content=""><meta property="og:url" content="http://inspire.local/Account/Login"><meta property="og:site_name" content="ReachOut.com"><meta property="fb:admins" content="xxx"><meta property="fb:app_id" content="xxx"><meta property="DC.Creator" content=""><meta property="DC.Publisher" content="ReachOut.com"><meta property="DC.Title" content="Login"><meta property="DC.Description" content=""><meta property="DC.Language" content="en"><meta property="DC.DateModified" content="May 15, 2012"><meta property="DC.Format" content="IMT"><meta property="DC.Identifier" content="http://inspire.local/Account/Login">
+   
+  <!-- 
+    Site:website
+    StartPath:/sitecore/content/Inspire/home    
+    StartItem:/home
+    ContentStartPath:/sitecore/content/Inspire
+    Item: Login
+  -->
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" /><link rel="stylesheet" href="/assets/css/style.css" /><link rel="stylesheet" type="text/css" href="/assets/css/application.css" /><title>
+
+</title></head>
+<body> 
     <form name="mainform" method="post" action="login" onsubmit="javascript:return WebForm_OnSubmit();" id="mainform" class="clearfix">
 <div>
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTExNzMyNjU4OQ9kFgICAw9kFgICBQ9kFgICAQ9kFgJmDw8WAh4IcmVuZGVyZWQGBduawNgMz4hkFgwCAQ8PZBYCHgVjbGFzcwUOc2NmVGl0bGVCb3JkZXJkAgMPD2QWAh8BBQ5zY2ZJbnRyb0JvcmRlcmQCBQ8PFgIeD1ZhbGlkYXRpb25Hcm91cAUsZm9ybV82MTE1Qjg3Njg4MTQ0M0FFOENERkFERUU5Mzk3NTIyNV9zdWJtaXRkZAIJD2QWAmYPZBYCZg9kFgJmD2QWBGYPZBYCZg9kFgJmDw8WBB4IQ3NzQ2xhc3MFWHNjZlNpbmdsZUxpbmVUZXh0Qm9yZGVyIGZpZWxkaWQuJTdiMUYwMDE3N0UtRDBBNS00NzBBLTgxRkQtQkJGQTNDOEUyMTYxJTdkIG5hbWUuVXNlcm5hbWUeBF8hU0ICAmQWAgIBD2QWAgICDw8WBB4MRXJyb3JNZXNzYWdlBT5Vc2VybmFtZSBtdXN0IGhhdmUgYXQgbGVhc3QgMCBhbmQgbm8gbW9yZSB0aGFuIDI1NiBjaGFyYWN0ZXJzLh4EVGV4dAU+VXNlcm5hbWUgbXVzdCBoYXZlIGF0IGxlYXN0IDAgYW5kIG5vIG1vcmUgdGhhbiAyNTYgY2hhcmFjdGVycy5kZAIBD2QWAmYPZBYCZg8PFgQfAwVSc2NmUGFzc3dvcmRCb3JkZXIgZmllbGRpZC4lN2I2NDBBQ0M0Qi05NzIyLTQ4NzAtQkFDRC02NUM3NDJERERDRDQlN2QgbmFtZS5QYXNzd29yZB8EAgJkFgICAQ9kFgICAg8PFgQfBQU+UGFzc3dvcmQgbXVzdCBoYXZlIGF0IGxlYXN0IDAgYW5kIG5vIG1vcmUgdGhhbiAyNTYgY2hhcmFjdGVycy4fBgU+UGFzc3dvcmQgbXVzdCBoYXZlIGF0IGxlYXN0IDAgYW5kIG5vIG1vcmUgdGhhbiAyNTYgY2hhcmFjdGVycy5kZAILDw9kFgIfAQUPc2NmRm9vdGVyQm9yZGVyZAIND2QWAmYPDxYKHwIFLGZvcm1fNjExNUI4NzY4ODE0NDNBRThDREZBREVFOTM5NzUyMjVfc3VibWl0HwYFBlN1Ym1pdB8DBQ9zY2ZTdWJtaXRCdXR0b24eDU9uQ2xpZW50Q2xpY2sFIiRzY3cud2ViZm9ybS5sYXN0U3VibWl0ID0gdGhpcy5pZDsfBAICZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgMFIWN0bDA5JGN0bDAwJGxvZ2luVmlldyRjdGwwMSRjdGwwMQUhY3RsMDkkY3RsMDAkbG9naW5WaWV3JGN0bDAxJGN0bDAzBRVjdGwwOSRjdGwwMyRTZWFyY2hCdG5xpf1S7BaKAn2MpJ8lcl7BgJ+qViB5Dw9YnNO5nWpWvA==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTExNzMyNjU4OQ9kFgICAw9kFgICBQ9kFgICAQ9kFgJmDw8WAh4IcmVuZGVyZWQGmGWM4d8Mz4hkFgwCAQ8PZBYCHgVjbGFzcwUOc2NmVGl0bGVCb3JkZXJkAgMPD2QWAh8BBQ5zY2ZJbnRyb0JvcmRlcmQCBQ8PFgIeD1ZhbGlkYXRpb25Hcm91cAUsZm9ybV82MTE1Qjg3Njg4MTQ0M0FFOENERkFERUU5Mzk3NTIyNV9zdWJtaXRkZAIJD2QWAmYPZBYCZg9kFgJmD2QWBGYPZBYCZg9kFgJmDw8WBB4IQ3NzQ2xhc3MFWHNjZlNpbmdsZUxpbmVUZXh0Qm9yZGVyIGZpZWxkaWQuJTdiMUYwMDE3N0UtRDBBNS00NzBBLTgxRkQtQkJGQTNDOEUyMTYxJTdkIG5hbWUuVXNlcm5hbWUeBF8hU0ICAmQWAgIBD2QWAgICDw8WBB4MRXJyb3JNZXNzYWdlBT5Vc2VybmFtZSBtdXN0IGhhdmUgYXQgbGVhc3QgMCBhbmQgbm8gbW9yZSB0aGFuIDI1NiBjaGFyYWN0ZXJzLh4EVGV4dAU+VXNlcm5hbWUgbXVzdCBoYXZlIGF0IGxlYXN0IDAgYW5kIG5vIG1vcmUgdGhhbiAyNTYgY2hhcmFjdGVycy5kZAIBD2QWAmYPZBYCZg8PFgQfAwVSc2NmUGFzc3dvcmRCb3JkZXIgZmllbGRpZC4lN2I2NDBBQ0M0Qi05NzIyLTQ4NzAtQkFDRC02NUM3NDJERERDRDQlN2QgbmFtZS5QYXNzd29yZB8EAgJkFgICAQ9kFgICAg8PFgQfBQU+UGFzc3dvcmQgbXVzdCBoYXZlIGF0IGxlYXN0IDAgYW5kIG5vIG1vcmUgdGhhbiAyNTYgY2hhcmFjdGVycy4fBgU+UGFzc3dvcmQgbXVzdCBoYXZlIGF0IGxlYXN0IDAgYW5kIG5vIG1vcmUgdGhhbiAyNTYgY2hhcmFjdGVycy5kZAILDw9kFgIfAQUPc2NmRm9vdGVyQm9yZGVyZAIND2QWAmYPDxYKHwIFLGZvcm1fNjExNUI4NzY4ODE0NDNBRThDREZBREVFOTM5NzUyMjVfc3VibWl0HwYFBlN1Ym1pdB8DBQ9zY2ZTdWJtaXRCdXR0b24eDU9uQ2xpZW50Q2xpY2sFIiRzY3cud2ViZm9ybS5sYXN0U3VibWl0ID0gdGhpcy5pZDsfBAICZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgMFIWN0bDA5JGN0bDAwJGxvZ2luVmlldyRjdGwwMSRjdGwwMQUhY3RsMDkkY3RsMDAkbG9naW5WaWV3JGN0bDAxJGN0bDAzBRVjdGwwOSRjdGwwMyRTZWFyY2hCdG7GGbxz7///NkGMAnfBt5bA50uT9RMUnarPf7ypJn8ccg==" />
 </div>
 
 <script type="text/javascript">
@@ -44,16 +76,88 @@ return true;
 
 <div>
 
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCQKrxtXYDwKoya3yDgLGyq3GCwLO5LjXCAKZ8+Q0AuCh98wDAoG06+0CApq59bsIAqWu1ELUBbe6WKvYWZolNnAge9vb8hxyKa8lyIHJQ1AYItny0Q==" />
+  <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCQLZp8nQDQKoya3yDgLGyq3GCwLO5LjXCAKZ8+Q0AuCh98wDAoG06+0CApq59bsIAqWu1EI12JNPYu+WtZpzqzZl43rU6EgExPyAJrhWc3EWMgy5/Q==" />
 </div>            
         
 
+
+
+<header>
+    <nav id="subheading">
+      <div id="flourish"></div>  
+      <ul class="module nav nav-sub nav-sub-pin-top">
+        <li>
+          <span class="nav-sub-title">Follow the conversation</span> 
+          <ul class="nav-sub-icons"> 
+            <li><a href="#" class="nav-sub-youtube">YouTube</a></li>
+            <li><a href="#" class="nav-sub-twitter">Twitter</a></li>
+            <li><a href="#" class="nav-sub-facebook">Facebook</a></li>
+          </ul>
+        </li>
+        <li>
+          
+        <span class="nav-sub-login"><a href="javascript:__doPostBack(&#39;ctl09$ctl00$loginView$ctl01$ctl02&#39;,&#39;&#39;)">Logon</a></span>
+        <span class="nav-sub-login">&nbsp;|&nbsp;</span>
+        <span class="nav-sub-login"><a href="/account/register">Register</a></span>                
+    
+        </li>
+        <li>
+          <a href="#" class="nav-sub-emergency">Emergency Help &amp; Info<span>info, chat & phone support</span></a>
+        </li>
+      </ul><!-- nav-sub module -->
+      
+    </nav><!-- #subheading -->
+
+    <nav id="primary">
+      <ul class="module nav nav-main">
+        <li><h1 class="nav-main-logo-container"><a href="/" class="nav-main-logo">Reach Out</a></h1></li><li class="dropdown nav-main-item"><a href="/Tough-Times" class="nav-main-heading">Tough <br/>Times<b>Understanding<br>being you</b></a><div class="module list ui-generic-list-icons extended dropdown-menu"><div class="content"><ul><li><h4 class="title"><a href="/Tough-Times/Alcohol-and-other-drugs">Alcohol and other drugs</a><span>Alcohol,
+  Other Drugs,
+  Party Drugs,
+  <a href="/Tough-Times/Alcohol-and-other-drugs" class="view-all">View all...</a></span></h4></li><li><h4 class="title"><a href="/Tough-Times/Mental-health-issues">Mental health issues</a><span>Anxiety,
+  Mood disorders,
+  Sleeping Issues,
+  Stress,
+  <a href="/Tough-Times/Mental-health-issues" class="view-all">View all...</a></span></h4></li><li><h4 class="title"><a href="/Tough-Times/Physical-Health">Physical Health</a><span>Chronic Illness,
+  <a href="/Tough-Times/Physical-Health" class="view-all">View all...</a></span></h4></li><li><h4 class="title"><a href="/Tough-Times/Bullying-Abuse-and-Violence">Bullying Abuse and Violence</a><span>Abusive relationships,
+  <a href="/Tough-Times/Bullying-Abuse-and-Violence" class="view-all">View all...</a></span></h4></li></ul><div class="featured nav-main-featured-bg"><div class="heading"><h3>Featured</h3></div><div class="inner content"><ul><li class="module ui-generic feature-image"><a href="/Stories/Story-1" title="Story 1"><img src="/assets/images/blank.gif" style="background-image: url('~/media/Images/Page Content/temp-test.ashx');"></a></li><li><h4 class="title"><a href="/Stories/Story-1" title="Story 1">Story 1<br><span>Featured Item 1 Title</span></a></h4></li><li><h4 class="title"><a href="/Stories/Story-2" title="Story 2">Story 2<br><span>Featured Item 2 Title</span></a></h4></li><li><h4 class="title"><a href="/Factsheets/A/A-Test-Factsheet" title="Factsheet 1">Factsheet 1<br><span>Featured Item 3 Title</span></a></h4></li></ul></div></div></div></div></li><li class="dropdown nav-main-item"><a href="/Wellbeing" class="nav-main-heading">Wellbeing<b>Understanding<br>being you</b></a><div class="module list ui-generic-list-icons extended dropdown-menu"><div class="content"><ul><li><h4 class="title"><a href="/Wellbeing/Goals-and-Motivation">Goals and Motivation</a><span>Motivation,
+  Problem solving,
+  <a href="/Wellbeing/Goals-and-Motivation" class="view-all">View all...</a></span></h4></li><li><h4 class="title"><a href="/Wellbeing/Mental-Fitness">Mental Fitness</a><span>Strengths,
+  <a href="/Wellbeing/Mental-Fitness" class="view-all">View all...</a></span></h4></li><li><h4 class="title"><a href="/Wellbeing/Personal-Identity">Personal Identity</a></h4></li><li><h4 class="title"><a href="/Wellbeing/School-Uni-and-Study">School Uni and Study</a><span>Failing,
+  <a href="/Wellbeing/School-Uni-and-Study" class="view-all">View all...</a></span></h4></li></ul><div class="featured nav-main-featured-bg"><div class="heading"><h3>Featured</h3></div><div class="inner content"><ul><li class="module ui-generic feature-image"><a href="/Factsheets/A/Alcohol-and-trouble"><img src="/assets/images/blank.gif" style="background-image: url('~/media/Images/Page Content/temp-test2.ashx');"></a></li><li><h4 class="title"><a href="/Factsheets/A/Alcohol-and-trouble"><br><span>Item 1 Title</span></a></h4></li><li><h4 class="title"><a><br><span></span></a></h4></li><li><h4 class="title"><a><br><span></span></a></h4></li></ul></div></div></div></div></li><li class="dropdown nav-main-item"><a href="/Get-Involved" class="nav-main-heading">Get <br/>Involved<b>Understanding<br>being you</b></a><div class="module list ui-generic-list-icons extended dropdown-menu"><div class="content"><ul></ul><div class="featured nav-main-featured-bg"><div class="heading"><h3>Featured</h3></div><div class="inner content"><ul><li class="module ui-generic feature-image"><a><img src="/assets/images/blank.gif" style="background-image: url('');"></a></li><li><h4 class="title"><a><br><span></span></a></h4></li><li><h4 class="title"><a><br><span></span></a></h4></li><li><h4 class="title"><a><br><span></span></a></h4></li></ul></div></div></div></div></li><li class="dropdown nav-main-item"><a href="/Apps-and-Tools" class="nav-main-heading">Apps<br/>&amp; Tools<b>Understanding<br>being you</b></a><div class="module list ui-generic-list-icons extended dropdown-menu"><div class="content"><ul></ul><div class="featured nav-main-featured-bg"><div class="heading"><h3>Featured</h3></div><div class="inner content"><ul><li class="module ui-generic feature-image"><a><img src="/assets/images/blank.gif" style="background-image: url('');"></a></li><li><h4 class="title"><a><br><span></span></a></h4></li><li><h4 class="title"><a><br><span></span></a></h4></li><li><h4 class="title"><a><br><span></span></a></h4></li></ul></div></div></div></div></li>        
+        <li class="dropdown nav-main-item"><a href="http://inspire-lithium-stage.dtdigital.com.au" target="_blank" class="nav-main-heading">
+        Forums
+        <b>
+          Read and<br>join discussions
+        </b></a><div class="module list ui-generic-list-icons extended dropdown-menu"><div class="content"><ul><li><h3>Tough Times</h3><ul><li><a href="http://inspire-lithium-stage.dtdigital.com.au/boards/id/1">Mindfullness</a></li></ul></li><li><h3>Wellbeing</h3><ul><li><a href="http://inspire-lithium-stage.dtdigital.com.au/boards/id/2">Mental Fitness</a></li></ul></li><li><h3>Get Involved</h3><ul><li><a href="http://inspire-lithium-stage.dtdigital.com.au/boards/id/2">Mental Fitness</a></li></ul></li></ul><div class="featured nav-main-featured-bg"><div class="heading"><h3>Featured</h3></div><div class="inner content"><ul><li class="module ui-generic feature-image"><img src="assets/images/blank.gif" style="background-image: url(assets/images/temp/temp-test.jpg);"></li><li><h4 class="title"><a href="#">View the discussion</a><span>Lorem ipsum dolor sit amet, consectetur</span></h4></li><li><h4 class="title"><a href="#">View the discussion</a><span>Lorem ipsum dolor sit amet, consectetur</span></h4></li><li><h4 class="title"><a href="#">View the discussion</a><span>Lorem ipsum dolor sit amet, consectetur</span></h4></li></ul></div></div></div></div></li>
+      </ul>
+    </nav><!-- #primary -->
+
+    <nav id="primary-search">
+      <div class="inner">
+
+        
+
+<div class="module nav nav-search">
+    <div class="nav-search-bar">
+    <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out..." />
+    <input type="image" name="ctl09$ctl03$SearchBtn" id="ctl09_ctl03_SearchBtn" class="nav-search-button" src="" style="border-width:0px;" />
+    
+    </div>
+</div>
+
+      </div>
+    </nav><!-- #primary-search -->
+
+</header>
+        
+
+        <div role="main" id="main">
         <!--content-->
             <div class="container page-header"><div class="inside"><h1>Login</h1></div></div><div class='scfForm' id="form_6115B876881443AE8CDFADEE93975225"><input type="hidden" name="form_6115B876881443AE8CDFADEE93975225$formreference" id="form_6115B876881443AE8CDFADEE93975225_formreference" value="form_6115B876881443AE8CDFADEE93975225" /><h1 id="form_6115B876881443AE8CDFADEE93975225_title" class="scfTitleBorder">
-	Login
+  Login
 </h1>
 <div id="form_6115B876881443AE8CDFADEE93975225_intro" class="scfIntroBorder">
-			<p>Enter your login details below.</p>
+      <p>Enter your login details below.</p>
 
 </div>
 <div id="form_6115B876881443AE8CDFADEE93975225__summary" class="scfValidationSummary" style="color:Red;display:none;">
@@ -63,31 +167,64 @@ return true;
 
 </div>
 <div id="form_6115B876881443AE8CDFADEE93975225_fieldContainer" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;form_6115B876881443AE8CDFADEE93975225_form_6115B876881443AE8CDFADEE93975225_submit&#39;)">
-	<div class="scfSectionBorder">
-		<div class="scfSectionBorder">
-			<div class="scfSectionContent">
-				<div id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161_scope" class="scfSingleLineTextBorder fieldid.%7b1F00177E-D0A5-470A-81FD-BBFA3C8E2161%7d name.Username">
-					<label for="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161" id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161_text" class="scfSingleLineTextLabel">Username</label><div class="scfSingleLineGeneralPanel">
-						<input name="form_6115B876881443AE8CDFADEE93975225$field_1F00177ED0A5470A81FDBBFA3C8E2161" type="text" maxlength="256" id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161" class="scfSingleLineTextBox" /><span class="scfSingleLineTextUsefulInfo" style="display:none;"></span><span id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E21616ADFFAE3DADB451AB530D89A2FD0307B_validator" class="scfValidator trackevent.%7bF3D7B20C-675C-4707-84CC-5E5B4481B0EE%7d fieldid.%7b1F00177E-D0A5-470A-81FD-BBFA3C8E2161%7d inner.1" style="color:Red;display:none;">Username must have at least 0 and no more than 256 characters.</span><span id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161070FCA141E9A45D78611EA650F20FE77_validator" class="scfValidator trackevent.%7b844BBD40-91F6-42CE-8823-5EA4D089ECA2%7d fieldid.%7b1F00177E-D0A5-470A-81FD-BBFA3C8E2161%7d inner.1" style="color:Red;display:none;">The value of the Username field is not valid.</span>
-					</div><span class="scfRequired">*</span>
-				</div><div id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4_scope" class="scfPasswordBorder fieldid.%7b640ACC4B-9722-4870-BACD-65C742DDDCD4%7d name.Password">
-					<label for="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4" id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4_text" class="scfPasswordLabel">Password</label><div class="scfPasswordGeneralPanel">
-						<input name="form_6115B876881443AE8CDFADEE93975225$field_640ACC4B97224870BACD65C742DDDCD4" type="password" maxlength="256" id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4" class="scfPasswordTextBox" /><span class="scfPasswordUsefulInfo" style="display:none;"></span><span id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD46ADFFAE3DADB451AB530D89A2FD0307B_validator" class="scfValidator trackevent.%7bF3D7B20C-675C-4707-84CC-5E5B4481B0EE%7d fieldid.%7b640ACC4B-9722-4870-BACD-65C742DDDCD4%7d inner.1" style="color:Red;display:none;">Password must have at least 0 and no more than 256 characters.</span><span id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4070FCA141E9A45D78611EA650F20FE77_validator" class="scfValidator trackevent.%7b844BBD40-91F6-42CE-8823-5EA4D089ECA2%7d fieldid.%7b640ACC4B-9722-4870-BACD-65C742DDDCD4%7d inner.1" style="color:Red;display:none;">The value of the Password field is not valid.</span>
-					</div><span class="scfRequired">*</span>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="scfSectionBorder">
+    <div class="scfSectionBorder">
+      <div class="scfSectionContent">
+        <div id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161_scope" class="scfSingleLineTextBorder fieldid.%7b1F00177E-D0A5-470A-81FD-BBFA3C8E2161%7d name.Username">
+          <label for="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161" id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161_text" class="scfSingleLineTextLabel">Username</label><div class="scfSingleLineGeneralPanel">
+            <input name="form_6115B876881443AE8CDFADEE93975225$field_1F00177ED0A5470A81FDBBFA3C8E2161" type="text" maxlength="256" id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161" class="scfSingleLineTextBox" /><span class="scfSingleLineTextUsefulInfo" style="display:none;"></span><span id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E21616ADFFAE3DADB451AB530D89A2FD0307B_validator" class="scfValidator trackevent.%7bF3D7B20C-675C-4707-84CC-5E5B4481B0EE%7d fieldid.%7b1F00177E-D0A5-470A-81FD-BBFA3C8E2161%7d inner.1" style="color:Red;display:none;">Username must have at least 0 and no more than 256 characters.</span><span id="form_6115B876881443AE8CDFADEE93975225_field_1F00177ED0A5470A81FDBBFA3C8E2161070FCA141E9A45D78611EA650F20FE77_validator" class="scfValidator trackevent.%7b844BBD40-91F6-42CE-8823-5EA4D089ECA2%7d fieldid.%7b1F00177E-D0A5-470A-81FD-BBFA3C8E2161%7d inner.1" style="color:Red;display:none;">The value of the Username field is not valid.</span>
+          </div><span class="scfRequired">*</span>
+        </div><div id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4_scope" class="scfPasswordBorder fieldid.%7b640ACC4B-9722-4870-BACD-65C742DDDCD4%7d name.Password">
+          <label for="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4" id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4_text" class="scfPasswordLabel">Password</label><div class="scfPasswordGeneralPanel">
+            <input name="form_6115B876881443AE8CDFADEE93975225$field_640ACC4B97224870BACD65C742DDDCD4" type="password" maxlength="256" id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4" class="scfPasswordTextBox" /><span class="scfPasswordUsefulInfo" style="display:none;"></span><span id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD46ADFFAE3DADB451AB530D89A2FD0307B_validator" class="scfValidator trackevent.%7bF3D7B20C-675C-4707-84CC-5E5B4481B0EE%7d fieldid.%7b640ACC4B-9722-4870-BACD-65C742DDDCD4%7d inner.1" style="color:Red;display:none;">Password must have at least 0 and no more than 256 characters.</span><span id="form_6115B876881443AE8CDFADEE93975225_field_640ACC4B97224870BACD65C742DDDCD4070FCA141E9A45D78611EA650F20FE77_validator" class="scfValidator trackevent.%7b844BBD40-91F6-42CE-8823-5EA4D089ECA2%7d fieldid.%7b640ACC4B-9722-4870-BACD-65C742DDDCD4%7d inner.1" style="color:Red;display:none;">The value of the Password field is not valid.</span>
+          </div><span class="scfRequired">*</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div id="form_6115B876881443AE8CDFADEE93975225_footer" class="scfFooterBorder">
 
 </div>
 <div class="scfSubmitButtonBorder">
-	<input type="submit" name="form_6115B876881443AE8CDFADEE93975225$form_6115B876881443AE8CDFADEE93975225_submit" value="Submit" onclick="$scw.webform.lastSubmit = this.id;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;form_6115B876881443AE8CDFADEE93975225$form_6115B876881443AE8CDFADEE93975225_submit&quot;, &quot;&quot;, true, &quot;form_6115B876881443AE8CDFADEE93975225_submit&quot;, &quot;&quot;, false, false));$scw.webform.validators.setFocusToFirstNotValid(&#39;form_6115B876881443AE8CDFADEE93975225_submit&#39;)" id="form_6115B876881443AE8CDFADEE93975225_form_6115B876881443AE8CDFADEE93975225_submit" />
+  <input type="submit" name="form_6115B876881443AE8CDFADEE93975225$form_6115B876881443AE8CDFADEE93975225_submit" value="Submit" onclick="$scw.webform.lastSubmit = this.id;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;form_6115B876881443AE8CDFADEE93975225$form_6115B876881443AE8CDFADEE93975225_submit&quot;, &quot;&quot;, true, &quot;form_6115B876881443AE8CDFADEE93975225_submit&quot;, &quot;&quot;, false, false));$scw.webform.validators.setFocusToFirstNotValid(&#39;form_6115B876881443AE8CDFADEE93975225_submit&#39;)" id="form_6115B876881443AE8CDFADEE93975225_form_6115B876881443AE8CDFADEE93975225_submit" />
 </div>
  
 <input type="hidden" name="form_6115B876881443AE8CDFADEE93975225$form_6115B876881443AE8CDFADEE93975225_eventcount" id="form_6115B876881443AE8CDFADEE93975225_form_6115B876881443AE8CDFADEE93975225_eventcount" value="1" /></div>
         <!--content end-->
+        </div>
+        <br style="clear:both;">
+        <footer>
+
+            <nav id="footer-main" class="grid three-to-one">
+                <div class="inner">
+                    <div class="g1"><div class="module list standard invert"><div class="heading"><h3>Tough <br/>Times</h3></div><div class="content"><ul><li><h4 class="title"><a href="/Tough-Times/Alcohol-and-other-drugs">Alcohol and other drugs</a></h4></li><li><h4 class="title"><a href="/Tough-Times/Mental-health-issues">Mental health issues</a></h4></li><li><h4 class="title"><a href="/Tough-Times/Physical-Health">Physical Health</a></h4></li><li><h4 class="title"><a href="/Tough-Times/Bullying-Abuse-and-Violence">Bullying Abuse and Violence</a></h4></li></ul></div></div><div class="module list standard invert"><div class="heading"><h3>Get <br/>Involved</h3></div><div class="content"><ul></ul></div></div></div><div class="g1"><div class="module list standard invert"><div class="heading"><h3>Wellbeing</h3></div><div class="content"><ul><li><h4 class="title"><a href="/Wellbeing/Goals-and-Motivation">Goals and Motivation</a></h4></li><li><h4 class="title"><a href="/Wellbeing/Mental-Fitness">Mental Fitness</a></h4></li><li><h4 class="title"><a href="/Wellbeing/Personal-Identity">Personal Identity</a></h4></li><li><h4 class="title"><a href="/Wellbeing/School-Uni-and-Study">School Uni and Study</a></h4></li></ul></div></div><div class="module list standard invert"><div class="heading"><h3>Apps<br/>&amp; Tools</h3></div><div class="content"><ul></ul></div></div></div><div class="g1"><div class="module list standard invert"><div class="heading"><h3>Popular<br>Forums</h3></div><div class="content"><ul><li><h4 class="title"><a href="http://inspire-lithium-stage.dtdigital.com.au/boards/id/1">Mindfullness</a></h4></li><li><h4 class="title"><a href="http://inspire-lithium-stage.dtdigital.com.au/boards/id/2">Mental Fitness</a></h4></li></ul></div></div></div><div class="g1 extended"><div class="module list standard invert" data-exclude="true"><div class="heading"><h3>
+            About Reach Out<br></h3></div><div class="content"><div class="module ui-generic callout-fuzzy ui-generic-callout-fuzzy"><div class="inner"><ul class="module list yellow"><li><h4 class="title"><a href="/About-Reach-Out/What-is-Reach-Out" class="larger">What is Reach Out?</a></h4></li><li><h4 class="title"><a href="/About-Reach-Out/Is-Reach-Out-Confidential" class="larger">Is Reach Out Confidential?</a></h4></li><li><h4 class="title"><a href="/About-Reach-Out/Expert-advice-on-Reach-Out" class="larger">Expert advice on Reach Out</a></h4></li><li><h4 class="title"><a href="/About-Reach-Out/How-does-Reach-Out-help-young-people" class="larger">How does Reach Out help young people?</a></h4></li><li><h4 class="title"><a href="/About-Reach-Out/Who-funds-Reach-Out" class="larger">Who funds Reach Out?</a></h4></li></ul><div class="module generic reachout-logo"><p>
+                  ReachOut.com is run by
+                  the Inspire Foundation
+                </p><img src="assets/images/blank.gif" class="ui-generic-inspire-logo"></div></div></div></div></div></div>                    
+                </div>
+            </nav>
+
+            <nav id="footer-secondary">
+              <div class="inner">
+                <div class="module byline">
+                  <div class="left">
+                    <span>Copyright Reach Out &copy; 2012</span>
+                    <a href="#">Privacy</a>
+                    <b class="pipe">&nbsp; | &nbsp;</b>
+                    <a href="#">Terms & Conditions</a>
+                  </div>
+                  <div class="right">
+                    <span>Hosted by Haylix</span> 
+
+                    <a href="#" class="ui-generic-haylix-logo inline-block"></a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+
+        </footer>        
 
       
 <script type="text/javascript">
@@ -153,3 +290,16 @@ function ValidatorOnSubmit() {
 </script>
 </form>
     
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>      window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script type="text/javascript" src="/assets/js/custom/application.js"></script>
+  <!-- end scripts -->
+
+ </body>
+</html>

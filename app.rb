@@ -30,6 +30,11 @@ get '/login' do
  	erb :'templates/login'
 end
 
+post '/login' do
+ 	status 200
+ 	body "ok"
+end
+
 # Non templates
 
 get '/modules' do

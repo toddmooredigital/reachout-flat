@@ -4,21 +4,10 @@ namespace "RO.Modules", (exports) ->
 		tmp: '''			
 			<div class="module ui-generic login">
 				<div class="left">
-					<h3 class="module heading dotted">Sign In</h3>
-					<form data-module="login:form" data-event-type="submit" data-event-handler="submit">
-						<div class="content">
-							<div class="field">
-								<label for="email">Email Address</label>
-								<input type="text" name="email" />
-							</div>
-							<div class="field">
-								<label for="password">Password</label>
-								<input type="password" name="password" />
-							</div>
-						</div>
-						<br style="clear:both;" />
-						<button class="btn orange">Submit</button>
-					</form>
+					<h3 class="module title heading dotted">
+						Login
+					</h3>
+					{{{form}}}
 				</div>
 				<div class="right">
 					<h3>Not Registered</h3>
@@ -35,8 +24,14 @@ namespace "RO.Modules", (exports) ->
 		id: "loginModal"
 
 		constructor: ->
+
+			@loginURL = RO.Config[window.ROENV].loginURL
 			@template = Handlebars.compile(@tmp)
-			@insertToDOM(@template)
+			@getLoginForm()
+
+
+		handleAjaxCallback: ->
+
 			@overlay = $("#"+@id).overlay(
 				onClose: @close
 				left: "center"
@@ -46,7 +41,7 @@ namespace "RO.Modules", (exports) ->
 			)
 
 			@overlayApi = $(@overlay).data("overlay")
-			@assignTriggers(["login", "login:form"])
+			@assignTriggers(["[data-module=login]", "form#mainform"])
 			
 
 		show: ->
@@ -59,13 +54,12 @@ namespace "RO.Modules", (exports) ->
 		assignTriggers: (targets) ->
 			#handles the assignment of different elements and types
 			for target in targets
-				@triggers = ($ '[data-module="'+target+'"]')
+				@triggers = ($ target)
 				for trigger in @triggers
 					trigger = ($ trigger)
-					if trigger.attr("data-event-type")
-						
-						trigger[trigger.attr("data-event-type")]((e) =>
-								@[trigger.attr("data-event-handler")](e)
+					if target == "form#mainform"
+						trigger["submit"]((e) =>
+								@submit(e)
 							)
 					else
 						trigger.click((e) =>
@@ -74,12 +68,47 @@ namespace "RO.Modules", (exports) ->
 						)
 
 		
-		submit: (formElement) ->
-			formElement.preventDefault()
-			alert("Ajax request")
+		submit: (e) ->
+			e.preventDefault()
+			data = ($ e.currentTarget).serialize()
+			jQuery.ajax
+				"url" 	: @loginURL
+				"type" 	: "POST"
+				"success" : (data, res) ->
+					console.log data, res
+					
+
+		getLoginForm: ->
+			jQuery.ajax
+				"url"  : @loginURL
+				"type" : "GET"
+				success : (data, res) =>
+					## Sanitize this form
+					template = ($ data)
+					template.each((e) ->
+							if ($ @).attr("id") == "mainform"
+								template = ($ @)
+								template = ($ "<div>").html(template)
+						)
+
+					template.find("script").remove()
+					template.find("link").remove()
+					template.find("h1").remove()
+					template.find("header").remove()
+					template.find("footer").remove()
+					template.find("#main").attr("id", "")
+					template.find("form").attr("onsubmit", "")
+					template.find("input[type=submit]").attr("onclick", "").addClass("btn orange")
+					template.find(".scfIntroBorder").remove()
+					template.find(".scfRequired").remove()
+					template.find("[onkeypress]").attr("onkeypress", "")
+
+
+					@insertToDOM(@template({ form: template.html() }))
+					@handleAjaxCallback()
 
 		insertToDOM: (el) ->
-			@rendered = el()
+			@rendered = el
 			@wrapper = ($ "<div class='"+@class+"' id='"+@id+"' style='width:981px; display: none;'>")
 			@rendered = ($ @wrapper).html(@rendered)
 

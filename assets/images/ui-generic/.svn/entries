@@ -1,7 +1,7 @@
 10
 
 dir
-88
+89
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation/Site/Trunk/www/assets/images/ui-generic
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation
 
@@ -26,14 +26,14 @@ tmoore
 
 ddeeccff-f0d0-bf4f-aefd-52bc294ab775
 
-ui-generic-inspire-logo.png
+ui-generic-horizontal-rule-inverse.png
 file
 
 
 
 
 2012-05-30T02:20:27.000000Z
-8533c73874933644e38d894208050c95
+e68564ecb1e1b309f09bd265b2bbec98
 2012-05-18T01:42:14.093327Z
 23
 tmoore
@@ -58,75 +58,7 @@ has-props
 
 
 
-5418
-
-ui-generic-horizontal-rule-yellow.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-f21500aec355012a70e9537c0fe27f69
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-959
-
-ui-generic-blueicon-facebook.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-c028a0f737ad54a92ebe8ffd45135254
-2012-05-22T06:01:17.005855Z
-37
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1595
+974
 
 ui-generic-blueicon-pdf.png
 file
@@ -162,14 +94,48 @@ has-props
 
 1762
 
-ui-generic-horizontal-rule-inverse.png
+ui-generic-blueicon-facebook.png
 file
 
 
 
 
 2012-05-30T02:20:27.000000Z
-e68564ecb1e1b309f09bd265b2bbec98
+c028a0f737ad54a92ebe8ffd45135254
+2012-05-22T06:01:17.005855Z
+37
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1595
+
+ui-generic-horizontal-rule-yellow.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+f21500aec355012a70e9537c0fe27f69
 2012-05-18T01:42:14.093327Z
 23
 tmoore
@@ -194,7 +160,41 @@ has-props
 
 
 
-974
+959
+
+ui-generic-inspire-logo.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+8533c73874933644e38d894208050c95
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5418
 
 ui-generic-list-square.png
 file
@@ -264,40 +264,6 @@ has-props
 
 1167
 
-ui-generic-vertical-rule.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-91998045f820cb3741de19d21f1ebd17
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-943
-
 ui-generic-blueicon-addthis.png
 file
 
@@ -331,6 +297,40 @@ has-props
 
 
 1560
+
+ui-generic-vertical-rule.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+91998045f820cb3741de19d21f1ebd17
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+943
 
 ui-generic-horizontal-rule.gif
 file
@@ -366,40 +366,6 @@ has-props
 
 1173
 
-ui-generic-icon-arrow.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-48ed8145d429930fc5f31f680514ff76
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1533
-
 ui-generic-blueicon-mail.png
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 1799
+
+ui-generic-icon-arrow.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+48ed8145d429930fc5f31f680514ff76
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1533
 
 ui-generic-blueicon-printer.png
 file
@@ -468,40 +468,6 @@ has-props
 
 1772
 
-ui-generic-callout-speechmark-top.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-191e609a3820140db8e107f669be85d5
-2012-05-22T06:01:17.005855Z
-37
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1131
-
 ui-generic-horizontal-rule-blue.png
 file
 
@@ -535,6 +501,40 @@ has-props
 
 
 963
+
+ui-generic-callout-speechmark-top.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+191e609a3820140db8e107f669be85d5
+2012-05-22T06:01:17.005855Z
+37
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1131
 
 ui-generic-callout-speechmark-down.png
 file
