@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/assets/css
+/svn/InspireFoundation/!svn/ver/82/Site/Trunk/www/assets/css
 END
 modules.css
 K 25
@@ -19,5 +19,5 @@ application.css
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/InspireFoundation/!svn/ver/75/Site/Trunk/www/assets/css/application.css
+/svn/InspireFoundation/!svn/ver/82/Site/Trunk/www/assets/css/application.css
 END

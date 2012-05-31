@@ -75,3 +75,44 @@ I, [2012-05-30T14:52:25.662573 #44022]  INFO -- : Served asset /application.js -
 I, [2012-05-30T14:52:29.522422 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
 I, [2012-05-30T14:52:55.994780 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
 I, [2012-05-30T14:53:21.444815 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T15:01:03.588240 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:35:29.434143 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:35:47.652983 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:35:58.447618 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:37:45.297729 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:37:50.685401 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:37:54.140623 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:37:54.290487 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:37:58.139451 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (2ms)
+I, [2012-05-30T17:38:00.989564 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:38:04.051706 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:38:06.265764 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:39:23.120364 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:39:39.874760 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (0ms)
+I, [2012-05-30T17:41:17.643885 #44022]  INFO -- : Served asset /application.js - 304 Not Modified (1ms)
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.3.1 codename Triple Espresso)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3002, CTRL+C to stop
+I, [2012-05-31T09:56:07.216742 #73702]  INFO -- : Compiled js/libs/01-jquery-1.7.1.min.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.231823 #73702]  INFO -- : Compiled js/libs/02-modernizr-2.5.3.min.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.240308 #73702]  INFO -- : Compiled js/libs/03-underscore-min.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.242794 #73702]  INFO -- : Compiled js/libs/04-handlebars-1.0.0.beta.6.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.246539 #73702]  INFO -- : Compiled js/libs/05-jquery.cycle.all.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.264484 #73702]  INFO -- : Compiled js/libs/06-bootstrap.min.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.265738 #73702]  INFO -- : Compiled js/libs/07-jquery.tools.min.js  (0ms)  (pid 73702)
+I, [2012-05-31T09:56:07.270067 #73702]  INFO -- : Compiled coffee/namespace.js  (3ms)  (pid 73702)
+I, [2012-05-31T09:56:07.361866 #73702]  INFO -- : Compiled coffee/spine/src/spine.js  (90ms)  (pid 73702)
+I, [2012-05-31T09:56:07.372732 #73702]  INFO -- : Compiled coffee/router.js  (7ms)  (pid 73702)
+I, [2012-05-31T09:56:07.379875 #73702]  INFO -- : Compiled coffee/modules/login-logout.js  (6ms)  (pid 73702)
+I, [2012-05-31T09:56:07.383622 #73702]  INFO -- : Compiled coffee/modules/slideshow.js  (2ms)  (pid 73702)
+I, [2012-05-31T09:56:07.387154 #73702]  INFO -- : Compiled coffee/ui/squeeze.js  (2ms)  (pid 73702)
+I, [2012-05-31T09:56:07.387482 #73702]  INFO -- : Compiled coffee/application.js  (300ms)  (pid 73702)
+I, [2012-05-31T09:56:07.388589 #73702]  INFO -- : Served asset /application.js - 200 OK (308ms)
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.3.1 codename Triple Espresso)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3002, CTRL+C to stop

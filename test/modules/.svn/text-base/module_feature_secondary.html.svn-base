@@ -1,0 +1,12 @@
+<div class="module feature secondary">
+          <h3 class="module heading dotted">Anxiety</h3>
+          <div class="content">
+            <div class="left">
+              <img src="images/blank.gif" style="background-image: url(images/temp/temp-test2.jpg);">
+</div>  
+            <div class="right">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>

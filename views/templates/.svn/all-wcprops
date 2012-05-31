@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/views/templates
+/svn/InspireFoundation/!svn/ver/81/Site/Trunk/www/views/templates
 END
 home.erb
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/views/templates/home.erb
+/svn/InspireFoundation/!svn/ver/81/Site/Trunk/www/views/templates/home.erb
 END
 emergency.rb
 K 25
@@ -37,5 +37,5 @@ subcategory.erb
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/InspireFoundation/!svn/ver/75/Site/Trunk/www/views/templates/subcategory.erb
+/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/views/templates/subcategory.erb
 END

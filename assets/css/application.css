@@ -421,6 +421,7 @@ header {
 .module.list.ui-generic-list-icons .content .title {
 	float: left;
 	margin: 0 0px 0 0px;
+	width: 230px;
 	color: #2d2d2d;
 }
 .module.list.ui-generic-list-icons .content .title > span {
@@ -585,6 +586,7 @@ header {
 }
 .module.list.ui-generic-list-icons.extended .content .title {
 	font-family: "Helvetica Neue","Helvetica","Arial";
+	width: auto;
 }
 
 .module.list.ui-generic-list-icons.extended .content .title > a {

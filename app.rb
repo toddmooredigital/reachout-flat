@@ -26,6 +26,10 @@ get '/search' do
  	erb :'templates/search'
 end
 
+get '/login' do
+ 	erb :'templates/login'
+end
+
 # Non templates
 
 get '/modules' do
@@ -39,6 +43,8 @@ end
 get '/patterns' do
  	erb :'patterns/patterns'
 end
+
+
 
 # use Rack::Auth::Basic, "Restricted Area" do |username, password|
 #   [username, password] == ['admin', 'password']
