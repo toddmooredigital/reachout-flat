@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 63
-/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/assets/coffee
+V 64
+/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/assets/coffee
 END
 namespace.coffee
 K 25
@@ -12,12 +12,18 @@ END
 router.coffee
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/assets/coffee/router.coffee
+V 78
+/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/assets/coffee/router.coffee
 END
 application.coffee
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/InspireFoundation/!svn/ver/50/Site/Trunk/www/assets/coffee/application.coffee
+V 83
+/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/assets/coffee/application.coffee
+END
+config.coffee
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/assets/coffee/config.coffee
 END

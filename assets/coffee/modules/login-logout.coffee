@@ -1,6 +1,7 @@
 namespace "RO.Modules", (exports) ->
-	class RO.Modules.LoginLogout extends Spine.Events
-		
+	class RO.Modules.LoginLogout extends Spine.Model
+		@extend(Spine.Events)
+
 		tmp: '''			
 			<div class="module ui-generic login">
 				<div class="left">
@@ -25,10 +26,11 @@ namespace "RO.Modules", (exports) ->
 
 		constructor: ->
 
-			@loginURL = RO.Config[window.ROENV].loginURL
+			@url = RO.Config[window.ROENV].loginURL
 			@template = Handlebars.compile(@tmp)
 			@getLoginForm()
-
+			@triggerArray = ["[data-module=login]", ".modal form#mainform"]
+			@wrapper = ($ "<div class='"+@class+"' id='"+@id+"' style='width:981px; display: none;'>")
 
 		handleAjaxCallback: ->
 
@@ -41,11 +43,12 @@ namespace "RO.Modules", (exports) ->
 			)
 
 			@overlayApi = $(@overlay).data("overlay")
-			@assignTriggers(["[data-module=login]", "form#mainform"])
-			
+			@assignTriggers(@triggerArray)
+			@.trigger "rendered"
 
 		show: ->
 			@overlayApi.load()
+			
 			
 
 		close: (e) =>
@@ -72,15 +75,16 @@ namespace "RO.Modules", (exports) ->
 			e.preventDefault()
 			data = ($ e.currentTarget).serialize()
 			jQuery.ajax
-				"url" 	: @loginURL
+				"url" 	: @url
 				"type" 	: "POST"
+				"data" 	: data
 				"success" : (data, res) ->
 					console.log data, res
-					
+
 
 		getLoginForm: ->
 			jQuery.ajax
-				"url"  : @loginURL
+				"url"  : @url
 				"type" : "GET"
 				success : (data, res) =>
 					## Sanitize this form
@@ -109,7 +113,6 @@ namespace "RO.Modules", (exports) ->
 
 		insertToDOM: (el) ->
 			@rendered = el
-			@wrapper = ($ "<div class='"+@class+"' id='"+@id+"' style='width:981px; display: none;'>")
 			@rendered = ($ @wrapper).html(@rendered)
 
 			#Make this method a registry so that all UI elements are updated

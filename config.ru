@@ -12,6 +12,6 @@ end
 js.append_path(File.join(project_root, 'assets'))
 js.append_path(File.join(project_root, 'assets', 'coffee'))
 
-map "/js/bin" do
+map "/js/custom" do
   run js
 end

@@ -3,6 +3,7 @@ namespace "RO.Route", (exports) ->
     
     constructor: ->
         @loginModule = new RO.Modules.LoginLogout
+        @signupModule = new RO.Modules.Signup
 
         # Homepage
         RO.Route.Router.add "/", =>
@@ -10,7 +11,12 @@ namespace "RO.Route", (exports) ->
 
         #Login Function
         RO.Route.Router.add "#login", =>
-            @loginModule.show()
+          @loginModule.bind "rendered", =>
+            @loginModule.show()        #Login Function
+        
+        RO.Route.Router.add "#signup", =>
+          @signupModule.bind "rendered", =>
+            @signupModule.show()
 
         RO.Route.Router.process()  
 

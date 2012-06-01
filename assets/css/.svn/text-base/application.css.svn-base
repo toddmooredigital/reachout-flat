@@ -1099,12 +1099,15 @@ header {
 .module.ui-generic.login .left > h3 {
 	margin-top: 0;
 }
-
-.module.ui-generic.login .left .field {
+.module.ui-generic.login .left .scfSingleLineTextBorder {
 	margin-right: 30px;
 }
 
-.module.ui-generic.login .left .field > input {
+.module.ui-generic.login .left .scfSingleLineTextBorder, .scfPasswordBorder {
+	float: left;
+}
+
+.module.ui-generic.login .left .scfSingleLineTextBorder input, .scfPasswordBorder input {
 	width: 265px;
 }
 

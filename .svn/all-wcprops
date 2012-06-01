@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/svn/InspireFoundation/!svn/ver/82/Site/Trunk/www
+V 50
+/svn/InspireFoundation/!svn/ver/124/Site/Trunk/www
 END
 Gemfile.lock
 K 25
@@ -24,8 +24,8 @@ END
 app.rb
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/app.rb
+V 57
+/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/app.rb
 END
 Gemfile
 K 25
@@ -36,8 +36,8 @@ END
 config.ru
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/config.ru
+V 60
+/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/config.ru
 END
 README.md
 K 25

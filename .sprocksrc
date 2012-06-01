@@ -1,0 +1,12 @@
+---
+target: ./assets/js/custom
+paths:
+- ./assets/js/libs
+- ./assets/coffee
+assets:
+- ./assets/coffee/application.coffee
+manifest: false
+digest: false
+gzip: false
+js_compressor: uglifier
+compress_css: false

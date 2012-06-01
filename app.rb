@@ -10,6 +10,10 @@ get '/factsheet' do
  	erb :'templates/factsheet'
 end
 
+get '/story' do
+ 	erb :'templates/story'
+end
+
 get '/category' do
  	erb :'templates/category'
 end
@@ -31,6 +35,15 @@ get '/login' do
 end
 
 post '/login' do
+ 	status 200
+ 	body "ok"
+end
+
+get '/signup' do
+ 	erb :'templates/signup'
+end
+
+post '/signup' do
  	status 200
  	body "ok"
 end

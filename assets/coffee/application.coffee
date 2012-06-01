@@ -5,6 +5,7 @@
 #=require ./router.coffee
 #=require_tree ./modules
 #=require_tree ./ui
+
 namespace "RO.Main", (exports) ->
     class RO.Main.ReachOut extends Spine.Events
         constructor: ->  

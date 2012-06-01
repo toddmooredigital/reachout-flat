@@ -46,7 +46,7 @@
         <li>
           <span class="nav-sub-login"><a href="#" data-module="login">Logon</a></span>
           <span class="nav-sub-login">&nbsp;|&nbsp;</span>
-          <span class="nav-sub-login"><a href="#">Register</a></span>
+          <span class="nav-sub-login"><a href="#" data-module="signup">Register</a></span>
         </li>
         <li>
           <a href="#" class="nav-sub-emergency">Emergency Help &amp; Info<span>info, chat & phone support</span></a>
