@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 74
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic
+V 75
+/svn/InspireFoundation/!svn/ver/130/Site/Trunk/www/assets/images/ui-generic
 END
 ui-generic-horizontal-rule-inverse.png
 K 25
@@ -33,11 +33,23 @@ svn:wc:ra_dav:version-url
 V 102
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-inspire-logo.png
 END
+ui-generic-blockquote-top.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/InspireFoundation/!svn/ver/130/Site/Trunk/www/assets/images/ui-generic/ui-generic-blockquote-top.png
+END
 ui-generic-list-square.png
 K 25
 svn:wc:ra_dav:version-url
 V 101
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic/ui-generic-list-square.png
+END
+ui-generic-blockquote-bottom.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/InspireFoundation/!svn/ver/130/Site/Trunk/www/assets/images/ui-generic/ui-generic-blockquote-bottom.png
 END
 ui-generic-callout-speechmark-left.png
 K 25
@@ -81,17 +93,17 @@ svn:wc:ra_dav:version-url
 V 106
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic/ui-generic-blueicon-printer.png
 END
-ui-generic-horizontal-rule-blue.png
-K 25
-svn:wc:ra_dav:version-url
-V 110
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule-blue.png
-END
 ui-generic-callout-speechmark-top.png
 K 25
 svn:wc:ra_dav:version-url
 V 112
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic/ui-generic-callout-speechmark-top.png
+END
+ui-generic-horizontal-rule-blue.png
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule-blue.png
 END
 ui-generic-callout-speechmark-down.png
 K 25

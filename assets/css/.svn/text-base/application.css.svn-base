@@ -1148,6 +1148,18 @@ header {
 	padding: 0 8px;
 } 
 
+/* module: Story-Callout; */
+
+.module.story.callout {
+	width: 280px;
+	padding-left: 20px;
+}
+
+.module.story.callout img {
+	height: 200px;
+	width: 280px;
+}
+
 /* 
 
  Buttons

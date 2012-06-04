@@ -10,6 +10,10 @@ get '/factsheet' do
  	erb :'templates/factsheet'
 end
 
+get '/story' do
+ 	erb :'templates/story'
+end
+
 get '/category' do
  	erb :'templates/category'
 end

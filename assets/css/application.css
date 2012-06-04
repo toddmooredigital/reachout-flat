@@ -953,6 +953,10 @@ header {
 
 }
 
+.module.heading.dotted.small {
+	font-size: 24px;
+}
+
 /* module: Dropdowns; */
 
 .dropdown-menu { 
@@ -1148,6 +1152,10 @@ header {
 	padding: 0 8px;
 } 
 
+.module.ui-generic.break.yellow em {
+	background: #fff05f;
+}
+
 /* module: Story-Callout; */
 
 .module.story.callout {
@@ -1160,6 +1168,54 @@ header {
 	width: 280px;
 }
 
+/* module: Emergency; */
+
+.module.emergency {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.module.emergency .left {
+	width: 321px;
+	background: #f9fafc;
+}
+
+.module.emergency h3 {
+	margin-top: 0 !important;
+	margin-bottom: 10px !important;
+}
+
+.module.emergency .inner {
+	padding: 20px;
+}
+
+.module.emergency .right {
+	width: 296px;
+	text-align: center;
+	background: #f0f3f8 url(../images/ui-generic/ui-generic-vertical-rule.png) left repeat-y;
+}
+
+.module.emergency .right .btn {
+	margin-top: 15px;
+	
+}
+
+/* module: Callout-Emergency; */
+
+.module.callout.emergency .inner {
+	padding: 30px;
+	text-align: center;
+}
+
+.module.callout.emergency h3 {
+	text-align: center !important;
+}
+
+.module.callout.emergency h3.red {
+	color: #d31208 !important;
+}
+
+
 /* 
 
  Buttons
@@ -1170,13 +1226,13 @@ header {
   *display: inline;
   margin-bottom: 0;
   *margin-left: .3em;
-  font-size: 15px; 
+  font-size: 18px; 
   padding: 10px;
   line-height: 18px;
   *line-height: 20px;
   color: #333333;
   text-align: center;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  
   vertical-align: middle;
   cursor: pointer;
   background-color: #f5f5f5;
@@ -1253,11 +1309,10 @@ header {
 /* button: Orange; */
 .btn.orange {
 	font-family: "Helvetica Neue", "Helvetica", "Arial";
-	font-size: 14px;
 	font-weight: bold;
 	color: #fff;
 	background-color: #ed7301;
-	padding: 5px 20px;
+	padding: 10px 15px;
 	-webkit-font-smoothing: antialiased;
 }
 

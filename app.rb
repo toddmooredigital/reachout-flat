@@ -23,7 +23,7 @@ get '/subcategory' do
 end
 
 get '/emergency' do
- 	erb :'templates/emegency'
+ 	erb :'templates/emergency'
 end
 
 get '/search' do

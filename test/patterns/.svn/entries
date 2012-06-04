@@ -1,7 +1,7 @@
 10
 
 dir
-125
+135
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation/Site/Trunk/www/test/patterns
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation
 
@@ -60,40 +60,6 @@ tmoore
 
 491
 
-form-textarea.html
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-e4845ac98410770b64c589d3929b4063
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-152
-
 pagination-first.html
 file
 
@@ -127,6 +93,40 @@ has-props
 
 
 326
+
+form-textarea.html
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+e4845ac98410770b64c589d3929b4063
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+152
 
 form-select.html
 file
@@ -162,40 +162,6 @@ has-props
 
 47
 
-feedback.html
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-38d33e8bbb2e7aa46bc3cc3f987fe969
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-104
-
 text.html
 file
 
@@ -229,6 +195,40 @@ has-props
 
 
 459
+
+feedback.html
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+38d33e8bbb2e7aa46bc3cc3f987fe969
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104
 
 form-text.html
 file
@@ -332,40 +332,6 @@ has-props
 
 132
 
-form-number.html
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-558322005078b7b014be96f9aa42545f
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-133
-
 pagination.html
 file
 
@@ -399,6 +365,40 @@ has-props
 
 
 311
+
+form-number.html
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+558322005078b7b014be96f9aa42545f
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+133
 
 pagination-last.html
 file
@@ -434,40 +434,6 @@ has-props
 
 325
 
-heading-1.html
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-775e13dce1ce05f422740a2f53682135
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26
-
 list-ordered.html
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 138
+
+heading-1.html
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+775e13dce1ce05f422740a2f53682135
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26
 
 heading-2.html
 file

@@ -1,14 +1,14 @@
 10
 
 dir
-125
+135
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation/Site/Trunk/www
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation
 
 
 
-2012-06-01T00:58:33.400594Z
-124
+2012-06-01T03:18:23.392206Z
+130
 tmoore
 has-props
 
@@ -140,10 +140,10 @@ file
 
 
 
-2012-05-31T07:38:26.000000Z
-33f5e2aeaf49a3614bcd63f4d3b36597
-2012-06-01T00:57:59.508885Z
-122
+2012-06-01T01:32:54.000000Z
+91eac4cf0bf8f3522f11873680ee2fd6
+2012-06-01T03:17:27.031027Z
+128
 tmoore
 
 
@@ -166,7 +166,7 @@ tmoore
 
 
 
-859
+905
 
 Gemfile
 file

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/css/modules
+V 69
+/svn/InspireFoundation/!svn/ver/128/Site/Trunk/www/assets/css/modules
 END
 tabs.css
 K 25
@@ -42,6 +42,6 @@ END
 ui-generic.css
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/css/modules/ui-generic.css
+V 84
+/svn/InspireFoundation/!svn/ver/128/Site/Trunk/www/assets/css/modules/ui-generic.css
 END

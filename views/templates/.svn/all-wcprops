@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/views/templates
+/svn/InspireFoundation/!svn/ver/130/Site/Trunk/www/views/templates
 END
 home.erb
 K 25
@@ -26,6 +26,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 78
 /svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/views/templates/category.erb
+END
+story.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/InspireFoundation/!svn/ver/130/Site/Trunk/www/views/templates/story.erb
 END
 search.erb
 K 25
