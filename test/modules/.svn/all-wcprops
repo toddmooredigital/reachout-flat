@@ -24,8 +24,8 @@ END
 module_nav_nav-main.html
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_nav_nav-main.html
+V 88
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_nav_nav-main.html
 END
 module_ui-generic_callout.html
 K 25
@@ -57,6 +57,12 @@ svn:wc:ra_dav:version-url
 V 109
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_heading_ui-generic-heading-overlay.html
 END
+module_byline.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_byline.html
+END
 module_heading_dotted_fl.html
 K 25
 svn:wc:ra_dav:version-url
@@ -66,14 +72,14 @@ END
 module_nav_nav-search.html
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_nav_nav-search.html
+V 90
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_nav_nav-search.html
 END
 module_list_standard.html
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_list_standard.html
+V 89
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_list_standard.html
 END
 module_ui-generic_help.html
 K 25
@@ -96,8 +102,8 @@ END
 module_generic_reachout-logo.html
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_generic_reachout-logo.html
+V 97
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_generic_reachout-logo.html
 END
 module_list_ui-generic-list-icons_margin-top-20_search.html
 K 25
@@ -123,17 +129,17 @@ svn:wc:ra_dav:version-url
 V 94
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_list_squared_bigger.html
 END
-module_ui-generic_reachout-logo.html
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_ui-generic_reachout-logo.html
-END
 module_list_ui-generic-list-icons_image-list.html
 K 25
 svn:wc:ra_dav:version-url
 V 112
 /svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_list_ui-generic-list-icons_image-list.html
+END
+module_ui-generic_reachout-logo.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_ui-generic_reachout-logo.html
 END
 module_heading_big.html
 K 25
@@ -141,17 +147,17 @@ svn:wc:ra_dav:version-url
 V 86
 /svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_heading_big.html
 END
-module_ui-generic_feature-image.html
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_ui-generic_feature-image.html
-END
 module_list_standard_invert.html
 K 25
 svn:wc:ra_dav:version-url
-V 95
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_list_standard_invert.html
+V 96
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_list_standard_invert.html
+END
+module_ui-generic_feature-image.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_ui-generic_feature-image.html
 END
 module_list_ui-generic-list-icons_featured.html
 K 25
@@ -162,8 +168,8 @@ END
 module_ui-generic_callout_border-radius-bottom_highlight.html
 K 25
 svn:wc:ra_dav:version-url
-V 124
-/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_ui-generic_callout_border-radius-bottom_highlight.html
+V 125
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_ui-generic_callout_border-radius-bottom_highlight.html
 END
 module_heading_dotted_no-margin-top_margin-bottom-10.html
 K 25
@@ -177,23 +183,29 @@ svn:wc:ra_dav:version-url
 V 119
 /svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_ui-generic_feature-image_margin-top-minus-20.html
 END
-module_ui-generic_callout-fuzzy_ui-generic-callout-fuzzy.html
+module_story_callout_fr.html
 K 25
 svn:wc:ra_dav:version-url
-V 124
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_ui-generic_callout-fuzzy_ui-generic-callout-fuzzy.html
+V 92
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_story_callout_fr.html
 END
 module_ui-generic_callout_border-radius-top.html
 K 25
 svn:wc:ra_dav:version-url
-V 111
-/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_ui-generic_callout_border-radius-top.html
+V 112
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_ui-generic_callout_border-radius-top.html
+END
+module_ui-generic_callout-fuzzy_ui-generic-callout-fuzzy.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_ui-generic_callout-fuzzy_ui-generic-callout-fuzzy.html
 END
 module_nav_nav-sub_nav-sub-pin-top.html
 K 25
 svn:wc:ra_dav:version-url
-V 102
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_nav_nav-sub_nav-sub-pin-top.html
+V 103
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_nav_nav-sub_nav-sub-pin-top.html
 END
 module_feature_main.html
 K 25
@@ -222,14 +234,14 @@ END
 module_heading_dotted.html
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_heading_dotted.html
+V 90
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_heading_dotted.html
 END
 module_list_ui-generic-list-icons_extended_dropdown-menu.html
 K 25
 svn:wc:ra_dav:version-url
-V 124
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_list_ui-generic-list-icons_extended_dropdown-menu.html
+V 125
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_list_ui-generic-list-icons_extended_dropdown-menu.html
 END
 module_list_ui-generic-list-icons.html
 K 25
@@ -240,6 +252,6 @@ END
 module_list_yellow.html
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/test/modules/module_list_yellow.html
+V 87
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_list_yellow.html
 END

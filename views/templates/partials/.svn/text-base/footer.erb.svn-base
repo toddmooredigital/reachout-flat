@@ -336,7 +336,26 @@
       </ul>
     </div>
   </div>
+
+  <div class="module ui-generic login">
+    <div class="left">
+      <h3 class="module title heading dotted">
+        Login
+      </h3>
+      {{{form}}}
+    </div>
+    <div class="right">
+      <h3>Not Registered</h3>
+      <div class="module ui-generic break">
+        <em>No Worries</em> 
+      </div>
+      <a class="btn orange">Sign Up</a>
+    </div>
+  </div>
 </div>
+
+
+
 </addition:extended>
 
 

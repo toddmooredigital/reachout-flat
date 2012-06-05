@@ -1,0 +1,3 @@
+.emergency-logo-kids-eheadspace { width: 157px; height: 34px; background: url(../../images/emergency-logos.png) -20px -14px no-repeat; }
+.emergency-logo-kids-helpline { width: 66px; height: 62px; background: url(../../images/emergency-logos.png) -217px 0px no-repeat; }
+.emergency-logo-lifeline { width: 119px; height: 44px; background: url(../../images/emergency-logos.png) -323px -9px no-repeat; }

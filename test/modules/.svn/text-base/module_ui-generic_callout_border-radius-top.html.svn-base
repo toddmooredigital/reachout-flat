@@ -1,10 +1,6 @@
 <li class="module ui-generic callout border-radius-top">
-                 <h4 class="title blue strong">
-                    whatever <br>
-</h4>
-                  <ul class="module list squared">
-<li>feeling hopeless or helpless</li>
-                  <li>losing interest in activities</li>
-                  </ul>
-<em class="ui-generic-callout-speechmark-top"></em>
+                 <h4 class="title">
+                    whatever <br><a href="#">View the discussion</a>
+                  </h4>
+                  <em class="ui-generic-callout-speechmark-top"></em>
                 </li>

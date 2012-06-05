@@ -27,6 +27,12 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/InspireFoundation/!svn/ver/44/Site/Trunk/www/views/templates/category.erb
 END
+emergency.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/views/templates/emergency.erb
+END
 story.erb
 K 25
 svn:wc:ra_dav:version-url

@@ -1,5 +1,5 @@
 <div class="module nav nav-search">
-          <form class="nav-search-bar">
-            <input type="text" class="nav-search-input" placeholder="Search Reach Out..."><button class="nav-search-button"></button>
-          </form>
-        </div>
+    <div class="nav-search-bar">
+    <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out..."><input type="image" name="ctl09$ctl03$SearchBtn" id="ctl09_ctl03_SearchBtn" class="nav-search-button" src="" style="border-width:0px;">
+</div>
+</div>

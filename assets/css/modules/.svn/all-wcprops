@@ -15,6 +15,12 @@ svn:wc:ra_dav:version-url
 V 80
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/css/modules/nav-sub.css
 END
+emergency-logos.css
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/assets/css/modules/emergency-logos.css
+END
 slideshow.css
 K 25
 svn:wc:ra_dav:version-url
@@ -43,5 +49,5 @@ ui-generic.css
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/InspireFoundation/!svn/ver/128/Site/Trunk/www/assets/css/modules/ui-generic.css
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/assets/css/modules/ui-generic.css
 END
