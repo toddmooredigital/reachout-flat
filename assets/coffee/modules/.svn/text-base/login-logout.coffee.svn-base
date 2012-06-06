@@ -42,12 +42,15 @@ namespace "RO.Modules", (exports) ->
 					background: "rgb(0,0,0)"
 			)
 
-			@overlayApi = $(@overlay).data("overlay")
-			@assignTriggers(@triggerArray)
-			@.trigger "rendered"
+
+			if typeof @overlay != "undefined"
+				@overlayApi = $(@overlay).data("overlay")
+				@assignTriggers(@triggerArray)
+				@.trigger "rendered"
 
 		show: ->
-			@overlayApi.load()
+			if typeof @overlayApi != "undefined"
+				@overlayApi.load()
 			
 			
 

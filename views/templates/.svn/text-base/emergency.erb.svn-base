@@ -88,8 +88,8 @@
       <div class="module emergency" data-ui="emergency">
         <div class="left fl">
           <div class="inner">
-            <h3 class="module heading dotted small">Lifeline</h3>
-            <p>For support and advice in a   personal crisis.</p>
+            <h3 class="module heading dotted small">Suicide Callback Service</h3>
+            <p>Support if you, or someone you know, is feeling suicidal.</p>
             <ul class="module list squared">
               <li><strong>Age: For all ages</strong></li>
               <li>Phone counselling 24/7</li>
@@ -99,8 +99,8 @@
         </div>
         <div class="right fl">
           <div class="inner">
-            <em class="emergency-logo-lifeline inline-block"></em>
-            <h3><i class="ui-generic-icon-phone inline-block"></i> 13 11 14</h3>
+            <em class="emergency-logo-suicide-callback inline-block"></em>
+            <h3><i class="ui-generic-icon-phone inline-block"></i> 1300 65 94 67</h3>
             <div class="module ui-generic break">
               <em>Or</em> 
             </div>
@@ -126,6 +126,12 @@
           </strong></p>
         </div>
       </div>
+
+      <p class="padding-20 no-padding-top-bottom">If you’re worried about calling emergency services, have a read of this fact sheet.
+        <br><br>
+        <i class="ui-generic-icon-pdf fl"></i><a href="#" class="fl margin-left-5"><strong>Emergency services fact sheet</strong></a>
+      </p>
+
     </section>
 
 

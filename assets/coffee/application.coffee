@@ -29,15 +29,12 @@ namespace "RO.Main", (exports) ->
 
         setGlobalHost: ->
 
-            if window.location.hostname == "0.0.0.0"
+            if (window.location.hostname == "0.0.0.0") || (window.location.hostname == "10.201.3.98")
                 window.ROENV = "Flat"
             else if window.location.hostname == "inspire.local"
                 window.ROENV = "Development"
             else 
                 window.ROENV = "Staging"
 
-
-
-    $ ->
-        window.RO["i"] = new RO.Main.ReachOut     
+ 
 

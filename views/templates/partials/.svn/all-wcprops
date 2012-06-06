@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/views/templates/partials
+/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/views/templates/partials
 END
 header.erb
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/svn/InspireFoundation/!svn/ver/122/Site/Trunk/www/views/templates/partials/header.erb
+/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/views/templates/partials/header.erb
 END
 tabs.erb
 K 25
@@ -19,5 +19,5 @@ footer.erb
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/views/templates/partials/footer.erb
+/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/views/templates/partials/footer.erb
 END

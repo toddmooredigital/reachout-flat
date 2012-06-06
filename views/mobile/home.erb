@@ -1,0 +1,61 @@
+<%= erb :'mobile/partials/header'  %>
+
+      <section id="slideshow">
+      
+        <div class="module slideshow el mobile">
+          <div class="inner" data-slideshow="parent">
+
+            <div class="anchor" data-slideshow="anchor">
+
+              <div class="callout" data-slideshow="callout">
+                <h2>We're here for young people.</h2>
+                <h3>Its Anonymous & open 24/7.</h3>
+                <a href="#">Learn more</a>
+
+              </div>
+
+              <div class="overlay-tl" data-slideshow="left">
+                <div class="inner">
+                  <b class="slideshow-overlay-tl block"></b>
+                </div> 
+              </div>
+              
+              
+
+              <div class="content" data-slideshow="cycle">
+                <img src="images/blank.gif" style="background: url(../images/temp/temp-slideshow1.jpg);" 
+                  data-slideshow-title="Working with friends"
+                  data-slideshow-subsection="Subsection title here"
+                  data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit."
+                  data-slideshow-link="#"
+                >
+                <img src="images/blank.gif" style="background: url(../images/temp/temp-slideshow2.jpg);" 
+                  data-slideshow-title="Working with friends"
+                  data-slideshow-subsection="Subsection title here"
+                  data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit."
+                  data-slideshow-link="#"
+                >
+              </div>
+     
+
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <div class="module nav nav-search mobile">
+      <div class="nav-search-bar">
+        <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out..."><button data-role="none" class="btn orange"><i class="nav-search-button-mobile inline-block"></i></button>
+      </div>
+    </div>
+    <div id="main" role="main">
+      <div data-role="collapsible-set" data-iconpos="right" data-collapsed-icon="blue-left-arrow" data-expanded-icon="blue-down-arrow">
+          <div data-role="collapsible" data-collapsed="true">
+            <h3>Browse</h3>
+            <a href="index.html" data-role="button" data-theme="orange" data-icon="white-left-arrow" data-iconpos="right">Test 1</a>
+          </div>
+      </div>
+      <a href="index.html" data-role="button" data-theme="yellow" data-icon="blue-left-arrow" data-iconpos="right">Emergency Help</a>
+    </div>
+
+<%= erb :'mobile/partials/footer'  %>

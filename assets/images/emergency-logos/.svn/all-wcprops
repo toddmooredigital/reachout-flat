@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/assets/images/emergency-logos
+/svn/InspireFoundation/!svn/ver/155/Site/Trunk/www/assets/images/emergency-logos
 END
 emergency-logo-lifeline.png
 K 25
@@ -20,4 +20,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 115
 /svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/assets/images/emergency-logos/emergency-logo-kids-eheadspace.png
+END
+emergency-logo-suicide-callback.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/InspireFoundation/!svn/ver/155/Site/Trunk/www/assets/images/emergency-logos/emergency-logo-suicide-callback.png
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 62
-/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules
+V 63
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules
 END
 module_heading_huge.html
 K 25
@@ -129,17 +129,17 @@ svn:wc:ra_dav:version-url
 V 94
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_list_squared_bigger.html
 END
-module_list_ui-generic-list-icons_image-list.html
-K 25
-svn:wc:ra_dav:version-url
-V 112
-/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_list_ui-generic-list-icons_image-list.html
-END
 module_ui-generic_reachout-logo.html
 K 25
 svn:wc:ra_dav:version-url
 V 99
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/test/modules/module_ui-generic_reachout-logo.html
+END
+module_list_ui-generic-list-icons_image-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_list_ui-generic-list-icons_image-list.html
 END
 module_heading_big.html
 K 25
@@ -147,17 +147,17 @@ svn:wc:ra_dav:version-url
 V 86
 /svn/InspireFoundation/!svn/ver/76/Site/Trunk/www/test/modules/module_heading_big.html
 END
-module_list_standard_invert.html
-K 25
-svn:wc:ra_dav:version-url
-V 96
-/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_list_standard_invert.html
-END
 module_ui-generic_feature-image.html
 K 25
 svn:wc:ra_dav:version-url
 V 100
 /svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_ui-generic_feature-image.html
+END
+module_list_standard_invert.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/test/modules/module_list_standard_invert.html
 END
 module_list_ui-generic-list-icons_featured.html
 K 25

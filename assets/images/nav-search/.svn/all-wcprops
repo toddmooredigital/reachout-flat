@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
-V 74
-/svn/InspireFoundation/!svn/ver/28/Site/Trunk/www/assets/images/nav-search
+V 75
+/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/images/nav-search
 END
 nav-search-button.png
 K 25
 svn:wc:ra_dav:version-url
 V 96
 /svn/InspireFoundation/!svn/ver/28/Site/Trunk/www/assets/images/nav-search/nav-search-button.png
+END
+nav-search-button-mobile.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/images/nav-search/nav-search-button-mobile.png
 END
 nav-search-bar.png
 K 25

@@ -353,9 +353,6 @@
     </div>
   </div>
 </div>
-
-
-
 </addition:extended>
 
 
@@ -367,6 +364,11 @@
 
   <!-- scripts concatenated and minified via build script -->
   <script src="js/custom/application.js"></script>
+  <script type="text/javascript">
+        jQuery(function(){
+          window.RO["i"] = new RO.Main.ReachOut()   
+        });
+  </script>
   <!-- end scripts -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.

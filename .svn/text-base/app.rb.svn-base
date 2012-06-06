@@ -48,6 +48,13 @@ post '/signup' do
  	body "ok"
 end
 
+# Mobile templates
+
+get '/mobile' do
+ 	erb :'mobile/home'
+end
+
+
 # Non templates
 
 get '/modules' do

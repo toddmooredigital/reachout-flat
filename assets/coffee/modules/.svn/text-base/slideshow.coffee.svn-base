@@ -7,6 +7,16 @@ namespace "RO.Modules", (exports) ->
               </span>
 		'''
 		constructor: ->
+
+			@parentWidth = ($ "[data-slideshow=\"parent\"]").width()
+
+			if typeof @parentWidth == "number"
+				@changeSlideShowPosition()
+				($ window).resize( =>
+					@parentWidth = ($ "[data-slideshow=\"parent\"]").width()
+					@changeSlideShowPosition()
+				)
+
 			@template = Handlebars.compile(@tmp)
 			($ @el).cycle(
 					fx : "fade"  
@@ -17,6 +27,13 @@ namespace "RO.Modules", (exports) ->
 		heading: ($ "[data-slideshow-heading]")
 
 		el: ($ "[data-slideshow=cycle]")
+
+		changeSlideShowPosition: ->
+			@slideshow = ($ "[data-slideshow=\"cycle\"]")
+			@leftoverlay = ($ "[data-slideshow=\"left\"] .slideshow-overlay-tl")
+			@slideshow.css("left", @parentWidth - 320)
+			@leftoverlay.css("right", - (@parentWidth + 531))
+
 
 		before: (currentEl, nextSlide, options) =>
 			el = ($ nextSlide)

@@ -1,14 +1,14 @@
 10
 
 dir
-150
+179
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation/Site/Trunk/www/views
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation
 
 
 
-2012-06-01T03:18:23.392206Z
-130
+2012-06-06T02:42:20.616764Z
+170
 tmoore
 
 
@@ -27,6 +27,9 @@ tmoore
 ddeeccff-f0d0-bf4f-aefd-52bc294ab775
 
 patterns
+dir
+
+mobile
 dir
 
 templates

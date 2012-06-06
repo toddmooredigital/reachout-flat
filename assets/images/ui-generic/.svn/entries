@@ -1,14 +1,14 @@
 10
 
 dir
-150
+179
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation/Site/Trunk/www/assets/images/ui-generic
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation
 
 
 
-2012-06-01T03:18:23.392206Z
-130
+2012-06-06T02:42:20.616764Z
+170
 tmoore
 
 
@@ -59,6 +59,40 @@ has-props
 
 
 1595
+
+ui-icon-minus.png
+file
+
+
+
+
+2012-06-06T05:02:10.000000Z
+f94e18011551b7403862e19319aaa8e0
+2012-06-06T02:42:20.616764Z
+170
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1084
 
 ui-generic-blockquote-top.png
 file
@@ -366,6 +400,40 @@ has-props
 
 1070
 
+ui-icon-plus.png
+file
+
+
+
+
+2012-06-06T05:02:10.000000Z
+d9dbfb405ede7f145c2922786efc2d7a
+2012-06-06T02:42:20.616764Z
+170
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1235
+
 ui-generic-horizontal-rule-light.png
 file
 
@@ -502,9 +570,43 @@ has-props
 
 5418
 
+ui-generic-horizontal-rule-inverse.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+e68564ecb1e1b309f09bd265b2bbec98
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+974
+
 ui-generic-icon-phone-red.png
 file
-151
+
 
 
 
@@ -569,40 +671,6 @@ has-props
 
 
 1762
-
-ui-generic-horizontal-rule-inverse.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-e68564ecb1e1b309f09bd265b2bbec98
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-974
 
 ui-generic-list-square.png
 file
@@ -842,6 +910,40 @@ has-props
 
 1533
 
+ui-generic-left-arrow.png
+file
+
+
+
+
+2012-06-06T01:42:29.000000Z
+ef3957c7562d47d4a3ddf15eb0f23980
+2012-06-06T02:42:20.616764Z
+170
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1235
+
 ui-generic-callout-speechmark-top.png
 file
 
@@ -875,6 +977,40 @@ has-props
 
 
 1131
+
+ui-generic-down-arrow-blue.png
+file
+
+
+
+
+2012-06-06T01:49:07.000000Z
+f5f857697f84ea47c7ee21d624df240d
+2012-06-06T02:42:20.616764Z
+170
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1228
 
 ui-generic-callout-fuzzy.png
 file
@@ -980,7 +1116,7 @@ has-props
 
 ui-generic-icon-phone.png
 file
-151
+
 
 
 
@@ -1014,7 +1150,7 @@ has-props
 
 ui-generic-callout-fuzzy-yellow.png
 file
-151
+
 
 
 
