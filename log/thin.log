@@ -6894,3 +6894,5 @@ I, [2012-06-06T16:07:07.935884 #7777]  INFO -- : Served asset /mobile.js - 304 N
 I, [2012-06-06T16:07:10.179562 #7777]  INFO -- : Served asset /mobile.js - 200 OK (0ms)
 I, [2012-06-06T16:17:09.957255 #7777]  INFO -- : Served asset /mobile.js - 304 Not Modified (0ms)
 I, [2012-06-06T16:17:10.322045 #7777]  INFO -- : Served asset /mobile.js - 200 OK (0ms)
+I, [2012-06-06T16:18:55.337897 #7777]  INFO -- : Served asset /mobile.js - 304 Not Modified (0ms)
+I, [2012-06-06T16:18:55.555471 #7777]  INFO -- : Served asset /mobile.js - 200 OK (0ms)

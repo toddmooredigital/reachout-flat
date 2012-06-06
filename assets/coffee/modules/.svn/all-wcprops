@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/coffee/modules
+/svn/InspireFoundation/!svn/ver/183/Site/Trunk/www/assets/coffee/modules
 END
 login-logout.coffee
 K 25
@@ -13,7 +13,7 @@ slideshow.coffee
 K 25
 svn:wc:ra_dav:version-url
 V 89
-/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/coffee/modules/slideshow.coffee
+/svn/InspireFoundation/!svn/ver/183/Site/Trunk/www/assets/coffee/modules/slideshow.coffee
 END
 signup.coffee
 K 25

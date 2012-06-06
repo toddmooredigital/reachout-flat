@@ -1,46 +1,4 @@
-<!doctype html>
-<!-- Conditional comment for mobile ie7 blogs.msdn.com/b/iemobile/ -->
-<!--[if IEMobile 7 ]>    <html class="no-js iem7" lang="en"> <![endif]-->
-<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
-<head>
-  <meta charset="utf-8">
-
-  <title></title>
-  <meta name="description" content="">
-
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, maximum-scale=1;">
-
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
-  <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="img/l/apple-touch-icon.png">
-
-  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black"> -->
-  <!-- <script>(function(){var a;if(navigator.platform==="iPad"){a=window.orientation!==90||window.orientation===-90?"img/startup-tablet-landscape.png":"img/startup-tablet-portrait.png"}else{a=window.devicePixelRatio===2?"img/startup-retina.png":"img/startup.png"}document.write('<link rel="apple-touch-startup-image" href="'+a+'"/>')})()</script> -->
-  
-  <!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
-  
-  <meta http-equiv="cleartype" content="on">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/application.css" />
-  <link rel="stylesheet" type="text/css" href="css/mobile.css" />
-
-  <script src="js/libs/02-modernizr-2.5.3.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-  <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
-</head>
-
-<body>
-
-  <div id="container">
-    <header>
-      <h1><a href="/" class="module nav-main-logo mobile block"></a></h1>
-    </header>
+<%= erb :'mobile/partials/header'  %>
 
       <section id="slideshow">
       
@@ -50,9 +8,9 @@
             <div class="anchor" data-slideshow="anchor">
 
               <div class="callout" data-slideshow="callout">
-                <h2>Reach Out is...</h2>
-                <h3>Anonymous &amp; open 24/7. Every year <br> <a href="#">Learn more</a>
-                </h3>
+                <h2>We're here for young people.</h2>
+                <h3>Its Anonymous & open 24/7.</h3>
+                <a href="#">Learn more</a>
 
               </div>
 
@@ -87,46 +45,17 @@
     </section>
     <div class="module nav nav-search mobile">
       <div class="nav-search-bar">
-        <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out..."><button class="btn orange"><i class="nav-search-button-mobile inline-block"></i></button>
+        <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out..."><button data-role="none" class="btn orange"><i class="nav-search-button-mobile inline-block"></i></button>
       </div>
     </div>
     <div id="main" role="main">
-      <div data-role="collapsible-set" data-iconpos="right">
+      <div data-role="collapsible-set" data-iconpos="right" data-collapsed-icon="blue-left-arrow" data-expanded-icon="blue-down-arrow">
           <div data-role="collapsible" data-collapsed="true">
             <h3>Browse</h3>
-            <ul>
-              <li></li>
-            </ul>
+            <a href="index.html" data-role="button" data-theme="orange" data-icon="white-left-arrow" data-iconpos="right">Test 1</a>
           </div>
       </div>
-      <a href="index.html" data-role="button" data-theme="yellow">Emergency Help</a>
+      <a href="index.html" data-role="button" data-theme="yellow" data-icon="blue-left-arrow" data-iconpos="right">Emergency Help</a>
     </div>
 
-    <footer>
-
-    </footer>
-  </div> <!--! end of #container -->
-
-
-  
-  <script src="js/custom/mobile.js"></script>
-  <script type="text/javascript">
-        jQuery(function(){
-          window.RO["i"] = new RO.Main.ReachOutMobile()   
-        });
-  </script>
-
-  <!-- end scripts -->
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-  mathiasbynens.be/notes/async-analytics-snippet -->
-  <script>
-  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
-
-</body>
-</html>
+<%= erb :'mobile/partials/footer'  %>

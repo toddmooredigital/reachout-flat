@@ -50,8 +50,12 @@ end
 
 # Mobile templates
 
-get '/mobile' do
+get '/mobile/home' do
  	erb :'mobile/home'
+end
+
+get '/mobile/category' do
+ 	erb :'mobile/category'
 end
 
 

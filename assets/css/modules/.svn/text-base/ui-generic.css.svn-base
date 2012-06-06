@@ -33,5 +33,7 @@
 .ui-generic-left-arrow { width: 19px; height: 20px; background: url(../../images/ui-generic.png) -4243px -175px no-repeat; }
 .ui-generic-list-square { width: 4px; height: 4px; background: url(../../images/ui-generic.png) -4302px -183px no-repeat; }
 .ui-generic-vertical-rule { width: 1px; height: 103px; background: url(../../images/ui-generic.png) -4346px -133px no-repeat; }
-.ui-icon-minus { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -4387px -176px no-repeat; }
-.ui-icon-plus { width: 19px; height: 20px; background: url(../../images/ui-generic.png) -4445px -175px no-repeat; }
+.ui-icon-blue-down-arrow { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -4387px -176px no-repeat; }
+.ui-icon-blue-left-arrow { width: 19px; height: 20px; background: url(../../images/ui-generic.png) -4445px -175px no-repeat; }
+.ui-icon-white-down-arrow { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -4504px -176px no-repeat; }
+.ui-icon-white-left-arrow { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -4562px -176px no-repeat; }

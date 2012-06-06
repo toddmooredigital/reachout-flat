@@ -31,8 +31,8 @@ namespace "RO.Modules", (exports) ->
 		changeSlideShowPosition: ->
 			@slideshow = ($ "[data-slideshow=\"cycle\"]")
 			@leftoverlay = ($ "[data-slideshow=\"left\"] .slideshow-overlay-tl")
-			@slideshow.css("left", @parentWidth - 320)
-			@leftoverlay.css("right", - (@parentWidth + 531))
+			@slideshow.css("left", @parentWidth - 250)
+			@leftoverlay.css("right", - (@parentWidth + 575))
 
 
 		before: (currentEl, nextSlide, options) =>
