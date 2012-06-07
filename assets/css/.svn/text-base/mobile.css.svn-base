@@ -37,6 +37,19 @@ header h1 { margin: 0 ; }
 
  Modules
  --------------------------------------------------------------------------- */
+.module.browse .topnav span.byline {
+	display: block;
+	font-size: 14px;
+	font-family: "Helvetica Neue", "Helvetica";
+	color: #271c02;
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+
+
+
+
 .module.nav-main-logo {
 	background-size: contain !important;
 	background: url(../images/nav-main/nav-main-logo.png) no-repeat;
@@ -189,12 +202,60 @@ header h1 { margin: 0 ; }
 	margin-bottom: 10px;
 }
 
+.subcategory-content .module.heading.dotted {
+	margin-bottom: 0;
+	background: none;
+	font-size: 23px;
+}
+
+.module.list.ui-generic-list-icons.subcategory {
+	background: url(../images/ui-generic/ui-generic-horizontal-rule.gif) top repeat-x;
+	padding-top: 1px;
+	margin-bottom: 0px;
+}
+
+.module.list.ui-generic-list-icons.subcategory .ui-icon-center-container {
+	padding-left: 20px;
+	width: 60px;
+	text-align: left;
+}
+.module.list.ui-generic-list-icons.subcategory .ui-icon-center-container.ui-generic-list-image {
+	width: 145px;
+}
+
+.module.list.ui-generic-list-icons.subcategory .title {
+	width: auto;
+}
+
+.module.list.ui-generic-list-icons.subcategory .title span,
+.module.list.ui-generic-list-icons.subcategory .title a {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.module.list.ui-generic-list-icons.subcategory li {
+	padding: 40px 0 !important;
+	cursor: pointer;
+}
+
+.module.list.ui-generic-list-icons.subcategory li:nth-child(odd) {
+	background-color: #f9fafc;
+}
+
+.module.list.ui-generic-list-icons.subcategory li .ui-generic-list-image img {
+	width: 135px;
+	height: 84px;
+}
+
+.pagination { margin-right: 20px; }
+.pagination li:last-child {
+	background: none;
+}
+
 
  /* 
-
  Buttons
  --------------------------------------------------------------------------- */
-
 
 
 
@@ -228,9 +289,27 @@ header h1 { margin: 0 ; }
 	color: #fff;
 }
 
+.ui-btn.ui-btn-up-large.ui-btn-icon-right .ui-icon,
+.ui-btn.ui-btn-down-large.ui-btn-icon-right .ui-icon,
+.ui-btn.ui-btn-hover-large.ui-btn-icon-right .ui-icon  {
+	margin-top: 25px !important;
+}
+
+.ui-btn.ui-btn-up-light-orange .ui-btn-text,
+.ui-btn.ui-btn-down-light-orange .ui-btn-text,
+.ui-btn.ui-btn-hover-light-orange .ui-btn-text {
+	color: #e77a1f !important;
+}
+.ui-btn.ui-btn-up-black-text .ui-btn-text,
+.ui-btn.ui-btn-down-black-text .ui-btn-text,
+.ui-btn.ui-btn-hover-black-text .ui-btn-text {
+	color: #352b13 !important;
+}
+
 .ui-btn {
 	display: block;
 	padding: 10px 0px;
+	position: relative;
 }
 .ui-btn .ui-btn-inner {
 	font-size: 23px;
@@ -252,6 +331,12 @@ header h1 { margin: 0 ; }
     border-top: 1px solid #fff; 
 
 
+}
+.ui-collapsible-heading,
+.ui-collapsible-set .ui-btn {
+	background-image: url("../images/ui-generic/ui-generic-horizontal-rule-light.png");
+	background-repeat: repeat-x;
+	background-position: top;
 }
 .ui-collapsible-heading a {
     text-align: left;
@@ -282,16 +367,12 @@ header h1 { margin: 0 ; }
     text-indent: -9999px;
 }
 .ui-collapsible-heading a span.ui-btn .ui-btn-inner { padding: 10px 0 }
-.ui-btn .ui-icon {
-    right: 0px;
-  float: right;
-    margin-top: 8px;
-    margin-right: 20px;
-    right: 0px;
-    
-}
 .ui-btn.ui-btn-icon-right .ui-icon {
-	right: 0px;
+    right: 0px;
+  	top: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+   	position: absolute;
 }
 .ui-collapsible-heading-status {
     position: absolute;

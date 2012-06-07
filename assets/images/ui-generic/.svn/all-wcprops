@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/images/ui-generic
+/svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/assets/images/ui-generic
 END
 ui-generic-blueicon-facebook.png
 K 25
@@ -14,6 +14,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 93
 /svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/images/ui-generic/ui-icon-minus.png
+END
+ui-icon-left-arrow-orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/images/ui-generic/ui-icon-left-arrow-orange.png
 END
 ui-generic-blockquote-top.png
 K 25
@@ -45,6 +51,12 @@ svn:wc:ra_dav:version-url
 V 103
 /svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/assets/images/ui-generic/ui-icon-blue-left-arrow.png
 END
+ui-icon-down-arrow-orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/images/ui-generic/ui-icon-down-arrow-orange.png
+END
 ui-generic-callout-speechmark-down.png
 K 25
 svn:wc:ra_dav:version-url
@@ -56,6 +68,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 104
 /svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/assets/images/ui-generic/ui-icon-white-down-arrow.png
+END
+ui-generic-icon-factsheet.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-factsheet.png
 END
 ui-generic-icon-speech.png
 K 25
@@ -98,6 +116,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 103
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-document.png
+END
+ui-generic-icon-story.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-story.png
 END
 ui-generic-horizontal-rule-yellow.png
 K 25
@@ -188,6 +212,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 112
 /svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic/ui-generic-callout-speechmark-top.png
+END
+ui-generic-icon-mobileplay.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-mobileplay.png
 END
 ui-generic-down-arrow-blue.png
 K 25

@@ -9,6 +9,18 @@ svn:wc:ra_dav:version-url
 V 84
 /svn/InspireFoundation/!svn/ver/155/Site/Trunk/www/assets/coffee/ui/emergency.coffee
 END
+01-mobile.base.coffee
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/coffee/ui/01-mobile.base.coffee
+END
+mobile-list.coffee
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/coffee/ui/mobile-list.coffee
+END
 squeeze.coffee
 K 25
 svn:wc:ra_dav:version-url

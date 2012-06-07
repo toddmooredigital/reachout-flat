@@ -58,6 +58,10 @@ get '/mobile/category' do
  	erb :'mobile/category'
 end
 
+get '/mobile/subcategory' do
+ 	erb :'mobile/subcategory'
+end
+
 
 # Non templates
 

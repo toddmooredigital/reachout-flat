@@ -1,17 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/InspireFoundation/!svn/ver/183/Site/Trunk/www/views/mobile
+/svn/InspireFoundation/!svn/ver/191/Site/Trunk/www/views/mobile
 END
 home.erb
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/InspireFoundation/!svn/ver/183/Site/Trunk/www/views/mobile/home.erb
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/views/mobile/home.erb
 END
 category.erb
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/views/mobile/category.erb
+END
+subcategory.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/views/mobile/subcategory.erb
 END

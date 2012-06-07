@@ -23,13 +23,13 @@
               
 
               <div class="content" data-slideshow="cycle">
-                <img src="images/blank.gif" style="background: url(../images/temp/temp-slideshow1.jpg);" 
+                <img src="/images/blank.gif" style="background: url(../images/temp/temp-slideshow1.jpg);" 
                   data-slideshow-title="Working with friends"
                   data-slideshow-subsection="Subsection title here"
                   data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit."
                   data-slideshow-link="#"
                 >
-                <img src="images/blank.gif" style="background: url(../images/temp/temp-slideshow2.jpg);" 
+                <img src="/images/blank.gif" style="background: url(../images/temp/temp-slideshow2.jpg);" 
                   data-slideshow-title="Working with friends"
                   data-slideshow-subsection="Subsection title here"
                   data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit."
@@ -45,14 +45,46 @@
     </section>
     <div class="module nav nav-search mobile">
       <div class="nav-search-bar">
-        <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out..."><button data-role="none" class="btn orange"><i class="nav-search-button-mobile inline-block"></i></button>
+        <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out...">
+        <input type="submit" data-role="none" class="btn orange nav-search-button-mobile inline-block" />
       </div>
     </div>
     <div id="main" role="main">
-      <div data-role="collapsible-set" data-iconpos="right" data-collapsed-icon="blue-left-arrow" data-expanded-icon="blue-down-arrow">
+      <div class="module browse" data-role="collapsible-set" data-iconpos="right" data-collapsed-icon="blue-left-arrow" data-expanded-icon="blue-down-arrow">
           <div data-role="collapsible" data-collapsed="true">
             <h3>Browse</h3>
-            <a href="index.html" data-role="button" data-theme="orange" data-icon="white-left-arrow" data-iconpos="right">Test 1</a>
+            <div data-role="collapsible" data-collapsed="true" data-theme="large">
+              <h3 class="topnav">Tough Times<span class="byline">Working out the hard stuff</span></h3>
+              <div data-role="collapsible" data-collapsed="true" data-theme="light-orange" data-collapsed-icon="left-arrow-orange" data-expanded-icon="down-arrow-orange">
+                <h3>Category 1</h3>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 1</a>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 2</a>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 3</a>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 4</a>
+                </div>
+              <div data-role="collapsible" data-collapsed="true" data-theme="light-orange" data-collapsed-icon="left-arrow-orange" data-expanded-icon="down-arrow-orange">
+                <h3>Category 2</h3>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 1</a>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 2</a>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 3</a>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 4</a>
+              </div>
+              <div data-role="collapsible" data-collapsed="true" data-theme="light-orange" data-collapsed-icon="left-arrow-orange" data-expanded-icon="down-arrow-orange">
+                <h3>Category 3</h3>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 1</a>
+              </div>
+              <div data-role="collapsible" data-collapsed="true" data-theme="light-orange" data-collapsed-icon="left-arrow-orange" data-expanded-icon="down-arrow-orange">
+                <h3>Category 4</h3>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 1</a>
+              </div>
+            </div>
+            <div data-role="collapsible" data-collapsed="true" data-theme="large">
+              <h3 class="topnav">Wellbeing<span class="byline">Improving your everyday life</span></h3>
+              <div data-role="collapsible" data-collapsed="true" data-theme="light-orange" data-collapsed-icon="left-arrow-orange" data-expanded-icon="down-arrow-orange">
+                <h3>Category</h3>
+                 <a href="index.html" data-role="button" data-theme="black-text" data-icon="left-arrow-orange" data-iconpos="right">Subcategory 1</a>
+              </div>
+            </div>
           </div>
       </div>
       <a href="index.html" data-role="button" data-theme="yellow" data-icon="blue-left-arrow" data-iconpos="right">Emergency Help</a>

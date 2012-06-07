@@ -6,7 +6,7 @@ namespace "RO.Main", (exports) ->
 			@UI = {}
 			@setGlobalHost()
 
-			@activateUI(key, uiObject) for key, uiObject of RO.UI.Mobile    
+			@activateUI(key, uiObject) for key, uiObject of RO.MobileUI   
 
 			#initiate slideshow
 			new RO.Modules.Slideshow

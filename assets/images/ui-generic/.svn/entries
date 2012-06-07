@@ -1,14 +1,14 @@
 10
 
 dir
-183
+212
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation/Site/Trunk/www/assets/images/ui-generic
 https://tmoore@s.dtdigital.com.au/svn/InspireFoundation
 
 
 
-2012-06-06T02:42:20.616764Z
-170
+2012-06-06T06:21:52.153517Z
+187
 tmoore
 
 
@@ -93,6 +93,40 @@ has-props
 
 
 1084
+
+ui-icon-left-arrow-orange.png
+file
+213
+
+
+
+2012-06-07T07:20:23.000000Z
+de949e084384519358f745b681e70fec
+2012-06-07T07:56:57.151087Z
+213
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1237
 
 ui-generic-blockquote-top.png
 file
@@ -232,7 +266,7 @@ has-props
 
 ui-icon-blue-left-arrow.png
 file
-187
+
 
 
 
@@ -263,6 +297,40 @@ has-props
 
 
 1235
+
+ui-icon-down-arrow-orange.png
+file
+213
+
+
+
+2012-06-07T07:20:37.000000Z
+fbeeeab64c185341d06d0fd3743ed7cf
+2012-06-07T07:56:57.151087Z
+213
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1197
 
 ui-generic-callout-speechmark-down.png
 file
@@ -300,7 +368,7 @@ has-props
 
 ui-icon-white-down-arrow.png
 file
-187
+
 
 
 
@@ -331,6 +399,40 @@ has-props
 
 
 1073
+
+ui-generic-icon-factsheet.png
+file
+213
+
+
+
+2012-06-07T04:23:14.000000Z
+336e6ae6e8923155377453fff4f97679
+2012-06-07T07:56:57.151087Z
+213
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2414
 
 ui-generic-icon-speech.png
 file
@@ -400,40 +502,6 @@ has-props
 
 974
 
-ui-generic-icon-pdf.png
-file
-
-
-
-
-2012-05-30T02:20:27.000000Z
-f0e62b6d6856d09b6289cdccbe1433a8
-2012-05-18T01:42:14.093327Z
-23
-tmoore
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2019
-
 ui-generic-down-arrow.png
 file
 
@@ -467,6 +535,40 @@ has-props
 
 
 1070
+
+ui-generic-icon-pdf.png
+file
+
+
+
+
+2012-05-30T02:20:27.000000Z
+f0e62b6d6856d09b6289cdccbe1433a8
+2012-05-18T01:42:14.093327Z
+23
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019
 
 ui-icon-plus.png
 file
@@ -569,6 +671,40 @@ has-props
 
 
 1397
+
+ui-generic-icon-story.png
+file
+213
+
+
+
+2012-06-07T04:23:00.000000Z
+f0117b7f94ec1b1a2e7ae21b4c6b0e8d
+2012-06-07T07:56:57.151087Z
+213
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2616
 
 ui-generic-horizontal-rule-yellow.png
 file
@@ -844,7 +980,7 @@ has-props
 
 ui-icon-white-left-arrow.png
 file
-187
+
 
 
 
@@ -1080,6 +1216,40 @@ has-props
 
 1131
 
+ui-generic-icon-mobileplay.png
+file
+213
+
+
+
+2012-06-07T04:29:54.000000Z
+747d3305354250268f962ea3d51290bc
+2012-06-07T07:56:57.151087Z
+213
+tmoore
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4299
+
 ui-generic-down-arrow-blue.png
 file
 
@@ -1252,7 +1422,7 @@ has-props
 
 ui-icon-blue-down-arrow.png
 file
-187
+
 
 
 
