@@ -42,12 +42,9 @@ header h1 { margin: 0 ; }
 	font-size: 14px;
 	font-family: "Helvetica Neue", "Helvetica";
 	color: #271c02;
-	margin-left: 20px;
+	
 	font-weight: normal;
 }
-
-
-
 
 
 .module.nav-main-logo {
@@ -189,6 +186,13 @@ header h1 { margin: 0 ; }
 }
 
 
+.module.ui-generic.feature-image.mobile {
+	height: 204px;
+	overflow: hidden;
+	background-position: center center;
+}
+
+
 .module.feature.main.mobile .heading {
 	bottom: 0 !important;
 	margin-bottom: 0;
@@ -207,6 +211,8 @@ header h1 { margin: 0 ; }
 	background: none;
 	font-size: 23px;
 }
+
+.module.heading.dotted { margin-bottom: 10px; }
 
 .module.list.ui-generic-list-icons.subcategory {
 	background: url(../images/ui-generic/ui-generic-horizontal-rule.gif) top repeat-x;
@@ -247,11 +253,21 @@ header h1 { margin: 0 ; }
 	height: 84px;
 }
 
+
+.module.story.bluebox {
+	padding: 20px;
+	background: #f9fafc;
+
+}
+
 .pagination { margin-right: 20px; }
 .pagination li:last-child {
 	background: none;
 }
 
+span.author-byline { color: #4176ba; font-size: 12px; }
+span.author { font-size: 12px; color: #67635b; }
+p.mobile-intro { margin-top: 0px; }
 
  /* 
  Buttons
@@ -316,6 +332,8 @@ header h1 { margin: 0 ; }
 	color: #4176ba;	
 	font-family: "KondolarBold";
 	padding-left: 20px;
+	display: block;
+	
 }
 
 
