@@ -6,9 +6,18 @@ namespace "RO.MobileUI", (exports) ->
 			
 
 		checkPageForAttr: ->
-			@el = ($ "["+@attr+"="+@role+"]")
-			if @el.length > 0
-				return true
+			if typeof @role == "object"
+				ok = false
+				for role in @role
+					@el = ($ "["+@attr+"="+role+"]")
+					if @el.length > 0
+						ok = true
+				if ok
+					return true
+			else
+				@el = ($ "["+@attr+"="+@role+"]")
+				if @el.length > 0
+					return true
 
 		registerForUpdateUponResize: (el1, el2 ,fn) ->
 			($ window).resize( =>
