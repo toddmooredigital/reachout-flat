@@ -228,12 +228,12 @@ namespace "RO.MobileUI", (exports) ->
 
 
 				($ @parentObject.el).css("display","block")
-				TweenLite.to(@parsedContainer, .8, { css:{ left: "100%" }} )
+				cb = =>
+					($ @el).css("display","none")
+				TweenLite.to(@parsedContainer, .8, { css:{ left: "100%" }, onComplete: cb} )
 				
-				cb = ->
-					($ @el).css("display","block")
 
-				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: 0 }, onComplete: cb} )
+				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: 0 }} )
 				RO.MobileUI.PagingListView.setCurrentObj(@parentObject)	
 				
 			else
@@ -252,8 +252,8 @@ namespace "RO.MobileUI", (exports) ->
 			@parsedContainer = ($ template).css(@_css)
 			target = @parsedContainer
 			if @parentObject
-				cb = ->
-					($ @el).css("display","none")
+				cb = =>
+					($ @parentObject.el).css("display","none")
 				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: "-100%" }, onComplete: cb } )
 			TweenLite.to(@parsedContainer, .8, { css:{ left: 0 }} )
 			
