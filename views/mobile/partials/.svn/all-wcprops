@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/views/mobile/partials
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/views/mobile/partials
 END
 header.erb
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/views/mobile/partials/header.erb
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/views/mobile/partials/header.erb
 END
 footer.erb
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/views/mobile/partials/footer.erb
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/views/mobile/partials/footer.erb
 END

@@ -4,11 +4,13 @@
 
 body {
 	width: 100%;
+	overflow: hidden;
 }
 
 #main { 
 	width: auto !important;
 	padding: 0;
+	overflow: visible;
 }
 
 #primary-search .inner {
@@ -33,21 +35,20 @@ header h1 { margin: 0 ; }
 	padding: 20px;
 }
 
+
  /* 
 
  Modules
  --------------------------------------------------------------------------- */
-.module.browse .topnav span.byline {
+.module.browse .topnav span.byline,
+.module.ui-paging-list span.byline {
 	display: block;
 	font-size: 14px;
 	font-family: "Helvetica Neue", "Helvetica";
 	color: #271c02;
-	margin-left: 20px;
+	
 	font-weight: normal;
 }
-
-
-
 
 
 .module.nav-main-logo {
@@ -189,6 +190,13 @@ header h1 { margin: 0 ; }
 }
 
 
+.module.ui-generic.feature-image.mobile {
+	height: 204px;
+	overflow: hidden;
+	background-position: center center;
+}
+
+
 .module.feature.main.mobile .heading {
 	bottom: 0 !important;
 	margin-bottom: 0;
@@ -207,6 +215,8 @@ header h1 { margin: 0 ; }
 	background: none;
 	font-size: 23px;
 }
+
+.module.heading.dotted { margin-bottom: 10px; }
 
 .module.list.ui-generic-list-icons.subcategory {
 	background: url(../images/ui-generic/ui-generic-horizontal-rule.gif) top repeat-x;
@@ -247,11 +257,21 @@ header h1 { margin: 0 ; }
 	height: 84px;
 }
 
+
+.module.story.bluebox {
+	padding: 20px;
+	background: #f9fafc;
+
+}
+
 .pagination { margin-right: 20px; }
 .pagination li:last-child {
 	background: none;
 }
 
+span.author-byline { color: #4176ba; font-size: 12px; }
+span.author { font-size: 12px; color: #67635b; }
+p.mobile-intro { margin-top: 0px; }
 
  /* 
  Buttons
@@ -297,12 +317,15 @@ header h1 { margin: 0 ; }
 
 .ui-btn.ui-btn-up-light-orange .ui-btn-text,
 .ui-btn.ui-btn-down-light-orange .ui-btn-text,
-.ui-btn.ui-btn-hover-light-orange .ui-btn-text {
+.ui-btn.ui-btn-hover-light-orange .ui-btn-text,
+.ui-btn-light-orange .ui-btn-text {
 	color: #e77a1f !important;
 }
+
 .ui-btn.ui-btn-up-black-text .ui-btn-text,
 .ui-btn.ui-btn-down-black-text .ui-btn-text,
-.ui-btn.ui-btn-hover-black-text .ui-btn-text {
+.ui-btn.ui-btn-hover-black-text .ui-btn-text,
+.ui-btn-black-text .ui-btn-text {
 	color: #352b13 !important;
 }
 
@@ -316,6 +339,8 @@ header h1 { margin: 0 ; }
 	color: #4176ba;	
 	font-family: "KondolarBold";
 	padding-left: 20px;
+	display: block;
+
 }
 
 
@@ -346,6 +371,10 @@ header h1 { margin: 0 ; }
 .ui-collapsible-heading .ui-btn-icon-left .ui-btn-inner { padding-left: 20px !important;
 	font-size: 23px;
 	color: #4176ba;
+
+}
+.ui-btn-icon-left .ui-btn-inner {
+	margin-left: 30px;
 }
 .ui-collapsible-heading .ui-btn-icon-right .ui-btn-inner {
     padding-left: 12px;
@@ -374,6 +403,14 @@ header h1 { margin: 0 ; }
     margin-right: 20px;
    	position: absolute;
 }
+
+.ui-btn.ui-btn-icon-left .ui-icon {
+    left: 0px;
+  	top: 0px;
+    margin-top: 15px;
+    margin-left: 20px;
+   	position: absolute;
+}
 .ui-collapsible-heading-status {
     position: absolute;
     top: -9999px;
@@ -399,4 +436,16 @@ header h1 { margin: 0 ; }
 	margin: 0;
 	font-size: 23px;
 	line-height: 23px;
+}
+
+.ui-list-item .ui-btn-text {
+	display:block; padding-right: 50px;
+}
+
+.ui-list-item {
+	background: url(../images/ui-generic/ui-generic-horizontal-rule-light.png) top repeat-x;
+}
+
+#browse-menu {
+	display: none;
 }

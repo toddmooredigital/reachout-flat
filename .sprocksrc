@@ -2,9 +2,11 @@
 target: ./assets/js/custom
 paths:
 - ./assets/js/libs
+- ./assets/js/mobile
 - ./assets/coffee
 assets:
 - ./assets/coffee/application.coffee
+- ./assets/coffee/mobile.coffee
 manifest: false
 digest: false
 gzip: false

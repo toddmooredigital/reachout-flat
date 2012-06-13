@@ -44,3 +44,4 @@
 .ui-icon-plus { width: 19px; height: 20px; background: url(../../images/ui-generic.png) -4921px -175px no-repeat; }
 .ui-icon-white-down-arrow { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -4980px -176px no-repeat; }
 .ui-icon-white-left-arrow { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -5038px -176px no-repeat; }
+.ui-icon-white-right-arrow { width: 18px; height: 18px; background: url(../../images/ui-generic.png) -5096px -176px no-repeat; }

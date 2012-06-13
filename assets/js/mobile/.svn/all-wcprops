@@ -1,11 +1,29 @@
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/assets/js/mobile
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/js/mobile
 END
 jquery.mobile.js
 K 25
 svn:wc:ra_dav:version-url
 V 84
 /svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/assets/js/mobile/jquery.mobile.js
+END
+CSSPlugin.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/js/mobile/CSSPlugin.min.js
+END
+EasePack.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/js/mobile/EasePack.min.js
+END
+TweenLite.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/js/mobile/TweenLite.min.js
 END

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/coffee/ui
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/coffee/ui
 END
 emergency.coffee
 K 25
@@ -13,13 +13,13 @@ END
 K 25
 svn:wc:ra_dav:version-url
 V 89
-/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/coffee/ui/01-mobile.base.coffee
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/coffee/ui/01-mobile.base.coffee
 END
 mobile-list.coffee
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/coffee/ui/mobile-list.coffee
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/coffee/ui/mobile-list.coffee
 END
 squeeze.coffee
 K 25
@@ -31,7 +31,7 @@ blockquote.coffee
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svn/InspireFoundation/!svn/ver/130/Site/Trunk/www/assets/coffee/ui/blockquote.coffee
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/coffee/ui/blockquote.coffee
 END
 homepageheadings.coffee
 K 25

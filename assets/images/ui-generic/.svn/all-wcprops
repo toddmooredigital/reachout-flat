@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/InspireFoundation/!svn/ver/187/Site/Trunk/www/assets/images/ui-generic
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/images/ui-generic
 END
 ui-generic-blueicon-facebook.png
 K 25
@@ -87,11 +87,17 @@ svn:wc:ra_dav:version-url
 V 105
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule.png
 END
-ui-generic-icon-pdf.png
+ui-icon-white-right-arrow.png
 K 25
 svn:wc:ra_dav:version-url
-V 98
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-pdf.png
+V 105
+/svn/InspireFoundation/!svn/ver/235/Site/Trunk/www/assets/images/ui-generic/ui-icon-white-right-arrow.png
+END
+ui-icon-plus.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/images/ui-generic/ui-icon-plus.png
 END
 ui-generic-down-arrow.png
 K 25
@@ -99,11 +105,11 @@ svn:wc:ra_dav:version-url
 V 100
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-down-arrow.png
 END
-ui-icon-plus.png
+ui-generic-icon-pdf.png
 K 25
 svn:wc:ra_dav:version-url
-V 92
-/svn/InspireFoundation/!svn/ver/170/Site/Trunk/www/assets/images/ui-generic/ui-icon-plus.png
+V 98
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-pdf.png
 END
 ui-generic-horizontal-rule-light.png
 K 25
@@ -123,23 +129,11 @@ svn:wc:ra_dav:version-url
 V 101
 /svn/InspireFoundation/!svn/ver/213/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-story.png
 END
-ui-generic-horizontal-rule-yellow.png
+ui-generic-horizontal-rule-inverse.png
 K 25
 svn:wc:ra_dav:version-url
-V 112
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule-yellow.png
-END
-ui-generic-blueicon-pdf.png
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic/ui-generic-blueicon-pdf.png
-END
-ui-generic-icon-phone-red.png
-K 25
-svn:wc:ra_dav:version-url
-V 105
-/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-phone-red.png
+V 113
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule-inverse.png
 END
 ui-generic-inspire-logo.png
 K 25
@@ -147,11 +141,23 @@ svn:wc:ra_dav:version-url
 V 102
 /svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-inspire-logo.png
 END
-ui-generic-horizontal-rule-inverse.png
+ui-generic-icon-phone-red.png
 K 25
 svn:wc:ra_dav:version-url
-V 113
-/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule-inverse.png
+V 105
+/svn/InspireFoundation/!svn/ver/151/Site/Trunk/www/assets/images/ui-generic/ui-generic-icon-phone-red.png
+END
+ui-generic-blueicon-pdf.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/InspireFoundation/!svn/ver/37/Site/Trunk/www/assets/images/ui-generic/ui-generic-blueicon-pdf.png
+END
+ui-generic-horizontal-rule-yellow.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/InspireFoundation/!svn/ver/23/Site/Trunk/www/assets/images/ui-generic/ui-generic-horizontal-rule-yellow.png
 END
 ui-generic-list-square.png
 K 25

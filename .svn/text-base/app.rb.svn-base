@@ -54,6 +54,10 @@ get '/mobile/home' do
  	erb :'mobile/home'
 end
 
+get '/mobile/home-a' do
+ 	erb :'mobile/home-a'
+end
+
 get '/mobile/category' do
  	erb :'mobile/category'
 end
@@ -62,6 +66,9 @@ get '/mobile/subcategory' do
  	erb :'mobile/subcategory'
 end
 
+get '/mobile/story' do
+ 	erb :'mobile/story'
+end
 
 # Non templates
 

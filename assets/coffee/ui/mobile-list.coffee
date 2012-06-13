@@ -46,7 +46,7 @@ namespace "RO.MobileUI", (exports) ->
 	class RO.MobileUI.PagingListView extends RO.MobileUI.Base
 		role: "paging-list-view"
 		@backTPL: '''
-			<a href="#" data-role="button" data-theme="white" data-icon="blue-left-arrow" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-orange back">
+			<a id="#back" data-role="button" data-theme="white" data-icon="blue-left-arrow" data-iconpos="right" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-orange back">
 				<span class="ui-btn-inner ui-btn-corner-all">
 					<span class="ui-btn-text">{{#if title}}{{title}}{{/if}}</span>
 					<span class="ui-icon ui-icon-white-right-arrow ui-icon-shadow">&nbsp;</span>
@@ -196,6 +196,7 @@ namespace "RO.MobileUI", (exports) ->
 		render: ->
 			($ @el).html(@parsedContainer)
 			@_target.append(@el)
+
 			($ @_target).height(($ @parsedContainer).height() + 56)
 			
 
@@ -229,11 +230,12 @@ namespace "RO.MobileUI", (exports) ->
 
 				($ @parentObject.el).css("display","block")
 				cb = =>
+					window.location.hash = "#back"
 					($ @el).css("display","none")
-				TweenLite.to(@parsedContainer, .8, { css:{ left: "100%" }, onComplete: cb} )
+				TweenLite.to(@parsedContainer, .8, { css:{ left: "100%" }, onComplete: cb, ease:Power2.easeOut} )
 				
 
-				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: 0 }} )
+				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: 0 }, ease:Power2.easeOut} )
 				RO.MobileUI.PagingListView.setCurrentObj(@parentObject)	
 				
 			else
@@ -253,9 +255,10 @@ namespace "RO.MobileUI", (exports) ->
 			target = @parsedContainer
 			if @parentObject
 				cb = =>
+					window.location.hash = "#back"
 					($ @parentObject.el).css("display","none")
-				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: "-100%" }, onComplete: cb } )
-			TweenLite.to(@parsedContainer, .8, { css:{ left: 0 }} )
+				TweenLite.to(@parentObject.parsedContainer, .8, { css:{ left: "-100%" }, onComplete: cb, ease:Power2.easeOut } )
+			TweenLite.to(@parsedContainer, .8, { css:{ left: 0 }, ease:Power2.easeOut} )
 			
 			RO.MobileUI.PagingListView.setCurrentObj(@)				
 

@@ -1,0 +1,224 @@
+<%= erb :'mobile/partials/header'  %>
+
+      <section id="slideshow">
+      
+        <div class="module slideshow el mobile">
+          <div class="inner" data-slideshow="parent">
+
+            <div class="anchor" data-slideshow="anchor">
+
+              <div class="callout" data-slideshow="callout">
+                <h2>We're here for young people.</h2>
+                <h3>Its Anonymous & open 24/7.</h3>
+                <a href="#">Learn more</a>
+
+              </div>
+
+              <div class="overlay-tl" data-slideshow="left">
+                <div class="inner">
+                  <b class="slideshow-overlay-tl block"></b>
+                </div> 
+              </div>
+              
+              <div class="content" data-slideshow="cycle">
+                <img src="/images/blank.gif" style="background: url(../images/temp/temp-slideshow1.jpg);" 
+                  data-slideshow-title="Working with friends"
+                  data-slideshow-subsection="Subsection title here"
+                  data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit."
+                  data-slideshow-link="#"
+                >
+                <img src="/images/blank.gif" style="background: url(../images/temp/temp-slideshow2.jpg);" 
+                  data-slideshow-title="Working with friends"
+                  data-slideshow-subsection="Subsection title here"
+                  data-slideshow-description="Lorem ipsum dolor sit amet, consec tetur adipiscing elit."
+                  data-slideshow-link="#"
+                >
+              </div>
+     
+
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <div class="module nav nav-search mobile">
+      <div class="nav-search-bar">
+        <input name="ctl09$ctl03$SearchText" type="text" id="ctl09_ctl03_SearchText" class="nav-search-input" placeholder="Search Reach Out...">
+        <input type="submit" data-role="none" class="btn orange nav-search-button-mobile inline-block" />
+      </div>
+    </div>
+    <div id="main" role="main">
+      <a href="#" data-role="button" data-theme="white" data-icon="blue-left-arrow" data-iconpos="right" id="browse">Browse</a>
+      <div id="browse-menu" style="position: absolute; width: 100%; background:white; z-index: 1000;"></div>
+      <ul data-role="paging-list-view" data-target-id="browse-menu" data-open-target="browse">
+      <li>
+
+        <h3>Tough Times</h3>
+        <span class="byline">Working out the hard stuff</span>
+  
+        <ul data-theme="light-orange" data-icon="left-arrow-orange">
+          <li>
+            <h4>Somethings not right</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Isolation & loneliness</a></li>
+              <li><a href="#">Angry, sad or depressed</a></li>
+              <li><a href="#">Stress & anxiety</a></li>
+              <li><a href="#">Eating disorders</a></li>
+              <li><a href="#">Addiction</a></li>
+              <li><a href="#">Self Harm</a></li>
+              <li><a href="#">Suicide</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Mental health issues</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Mood disorders</a></li>
+              <li><a href="#">Bipolar</a></li>
+              <li><a href="#">Behavioural disorders</a></li>
+              <li><a href="#">Anxiety disorders</a></li>
+              <li><a href="#">Psychotic disorders</a></li>
+              <li><a href="#">Developmental disorders</a></li>
+              <li><a href="#">Personality disorders</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Physical health</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Serious illness</a></li>
+              <li><a href="#">Sleeping issues</a></li>
+              <li><a href="#">Eating disorders</a></li>
+              <li><a href="#">STI's</a></li>
+              <li><a href="#">Pregnancy</a></li>
+              <li><a href="#">Self harm</a></li>
+              <li><a href="#">Suicide</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Alcohol & other drugs</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Alcohol</a></li>
+              <li><a href="#">Party Drugs</a></li>
+              <li><a href="#">other drugs</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Bullying, abuse & violence</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Bullying</a></li>
+              <li><a href="#">Abusibe relationships</a></li>
+              <li><a href="#">Sexual assault</a></li>
+              <li><a href="#">Childhood abuse</a></li>
+              <li><a href="#">Phyiscial violence</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Loss & grief</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Dealing with dealth</a></li>
+              <li><a href="#">Other loss & grief</a></li>
+              <li><a href="#">Life threatening illness</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Getting help</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Professional help</a></li>
+              <li><a href="#">Help for myself & others</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3>Wellbeing</h3>
+        <span class="byline">Improving your everyday life</span>
+  
+        <ul data-theme="light-orange" data-icon="left-arrow-orange">
+          <li>
+            <h4>Mental fitness</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Coping</a></li>
+              <li><a href="#">Strengths</a></li>
+              <li><a href="#">Realxation</a></li>
+              <li><a href="#">Confidence</a></li>
+              <li><a href="#">Self talk & self awareness</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Personal identity</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Sexuality</a></li>
+              <li><a href="#">Gender</a></li>
+              <li><a href="#">Cultural identity</a></li>
+              <li><a href="#">Disability</a></li>
+              <li><a href="#">Body Image</a></li>
+              <li><a href="#">Sprituallity</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>School, Uni &amp; study</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Exam & study stress</a></li>
+              <li><a href="#">Starting out</a></li>
+              <li><a href="#">Life &amp; career choices</a></li>
+              <li><a href="#">Failing</a></li>
+              <li><a href="#">Sleeping issues</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Being Independent</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Dealing with changes</a></li>
+              <li><a href="#">Money</a></li>
+              <li><a href="#">Leaving home</a></li>
+              <li><a href="#">Work & career</a></li>
+              <li><a href="#">Legal issues</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Staying fit &amp; healthy</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Eating well</a></li>
+              <li><a href="#">Exercise</a></li>
+              <li><a href="#">Habits</a></li>
+              <li><a href="#">Sleeping well</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Goals &amp; motivation</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Setting goals</a></li>
+              <li><a href="#">Problem solving</a></li>
+              <li><a href="#">Motivation</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Friends &amp; family</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Friendship</a></li>
+              <li><a href="#">Families</a></li>
+              <li><a href="#">Caring for others</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Social skills</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Meeting new people</a></li>
+              <li><a href="#">Communication skills</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Sex &amp; relationships</h4>
+            <ul data-theme="black-text">
+              <li><a href="#">Relationships</a></li>
+              <li><a href="#">Sex</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+      <a href="#" data-role="button" data-theme="yellow" data-icon="blue-left-arrow" data-iconpos="right">Emergency Help</a>
+    </div>
+
+
+
+<%= erb :'mobile/partials/footer'  %>
